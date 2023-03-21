@@ -116,15 +116,29 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-html{ min-width: 1280px;}
+html {
+  max-width: 1280px;
+  min-width: 1024px;
+  
+}
 * {
   font-family: "Inter", normal;
-  font-weight: 400 ;
-  font-size: 16px  ;
-  line-height: 19px  ;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
 }
 
-/*-----------0000000000000000000------------------*/
+/* -----------0000000000000000000------------------ */
+.header,
+.footer {
+  margin: 37px 60px 25px 90px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav__search {
+  display: flex;
+  align-items: center;
+}
 button {
   cursor: pointer;
   border: 0px;
@@ -132,8 +146,6 @@ button {
   background-color: transparent;
   font-weight: 700;
 }
-
-
 .wrapper_two {
   margin: 41px 192px 0 192px;
   position: relative;
@@ -142,11 +154,6 @@ button {
   max-width: 24px;
   height: 24px;
 }
-.nav {
-  margin: 37px 60px 25px 90px;
-  display: flex;
-  justify-content: space-between;
-}
 .nav__input {
   border: 0px;
 }
@@ -154,7 +161,7 @@ button {
   display: flex;
   align-items: center;
 }
-h1 {
+.header__hotcoffee {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
@@ -166,9 +173,8 @@ h1 {
   max-width: 20px;
   height: 20px;
 }
-.nav__search {
-  display: flex;
-  align-items: center;
+strong{
+  font-weight: 700;
 }
 .content {
   display: flex;
@@ -188,7 +194,7 @@ h1 {
   max-width: 70px;
   height: 67px;
 }
-.content__info__1 > p {
+.content__info__1 > h2 {
   font-weight: 700;
   font-size: 60px;
   line-height: 73px;
