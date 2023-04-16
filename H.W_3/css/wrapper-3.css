@@ -1,0 +1,99 @@
+.wrapper-3__video_fon {
+  background-color: rgba(0, 0, 0);
+  position: relative;
+}
+.wrapper-3__video_fon > img {
+  opacity: 0.2;
+}
+.play {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+}
+.wrapper-3__video {
+  margin-top: -226px;
+  width: 818px;
+  margin: -226px auto 0 auto;
+  height: 434px;
+}
+.section__row > .wrapper-3__line {
+  display: flex;
+  margin: 62px auto 34px auto;
+  width: 55px;
+  height: 1.5px;
+  background-color: #e3b873;
+}
+.wrapper-3__text {
+  margin: 0 auto;
+
+  width: 681px;
+  text-align: center;
+  font-family: "Nunito Sans";
+
+  font-size: 18px;
+  line-height: 36.83px;
+  color: #363636;
+}
+.wrapper-3__input {
+  display: flex;
+  justify-content: center;
+  margin-top: 91.5px;
+}
+.input_okno > input::placeholder {
+  font-family: "Nunito Sans";
+  font-style: "Regular";
+  font-size: 14px;
+  line-height: 22.92px;
+  color: #363636;
+}
+.input_okno > input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+}
+.input_okno > input:focus {
+  outline: none;
+}
+.input_okno {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.input_okno > span {
+  font-family: "Nunito Sans";
+  font-size: 13px;
+  line-height: 21.28px;
+  color: rgba(54, 54, 54, 0.5);
+}
+.wrapper-3__input > button {
+  padding: 0;
+  text-align: center;
+  background-color: #e3b873;
+  width: 200px;
+  height: 51px;
+  font-family: "Nunito Sans";
+  color: white;
+  font-size: 13px;
+  line-height: 26.6px;
+  border: 0px;
+  text-transform: uppercase;
+}
+.wrapper-3__input__phone {
+  margin-right: 49px;
+  margin-left: 58px;
+}
+.check-mark {
+  display: flex;
+  justify-content: center;
+  margin: 35px 0 147px 0;
+}
+.check-mark > span {
+  margin-left: 8.5px;
+
+  font-family: "Nunito Sans";
+  font-style: "Regular";
+  font-size: 14px;
+  line-height: 22.92px;
+  color: #181818;
+}
