@@ -59,7 +59,7 @@
   color: rgba(255, 255, 255, 0.5);
 }
 .wrapper-5__input > .button > button {
-  /* padding: 0; */
+cursor: pointer;
   text-align: center;
   background-color: #e3b873;
   width: 200px;
@@ -72,6 +72,7 @@
   text-transform: uppercase;
 }
 .wrapper-5__input > .button {
+  cursor: pointer;
   display: flex;
   flex-direction: row-reverse;
 }
@@ -110,17 +111,17 @@
   justify-content: center;
 }
 
-.section__col_modal_okno > .title > span {
-  font-family: " Nunito Sans";
+.section__col_modal_okno > .title > h4 {
+  padding-top: 28px;
+  font-family: "Nunito Sans";
   font-size: 18px;
   line-height: 25.78px;
 }
 .wrapper-5__section__row {
   display: flex;
+  margin-top: 311px;
 }
-/* .section__col_modal_okno {
-  margin-left: 131px;
-} */
+
 .section__col_modal_okno > .title {
   text-align: center;
   margin: 28px 0 39px 0;
@@ -128,15 +129,14 @@
 .wrapper-5__input__phone {
   margin: 48px 0;
 }
-.wrapper-5__check-mark {
-  display: flex;
 
-  margin: 19px 0 39px 0;
+.wrapper-5__input > .check-mark > label > .text {
+  color: #ffffff;
 }
-.wrapper-5__check-mark > span {
-  padding-left: 8.6px;
-  font-size: 14px;
-  line-height: 22.92px;
+
+.wrapper-5__input > .check-mark {
+  justify-content: flex-start;
+  margin: 17px 0 39px 0;
 }
 
 .section__sale > p {
@@ -151,7 +151,6 @@
   align-items: center;
 }
 .section__sale > div {
-  /* margin-top: 38px; */
   width: 92px;
   height: 92px;
 }

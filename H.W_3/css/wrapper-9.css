@@ -1,0 +1,28 @@
+.wrapper-9 {
+  background: url(/H.W_3/images/img13.png) 0 0 / 100% 100% no-repeat;
+}
+.wrapper-9__color {
+  background: linear-gradient(
+    rgba(24, 24, 24) 3.47%,
+    rgba(24, 24, 24, 0.9) 100%
+  );
+}
+.wrapper-9__content {
+  margin: -203px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 273px 0 65px 0;
+}
+
+.wrapper-9__content > h3 {
+  text-align: center;
+  font-family: "Yeseva One";
+  color: #e3b873;
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 27.72px;
+}
+.wrapper-9__icon {
+  padding: 26px 0 43px 0;
+}

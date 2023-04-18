@@ -5,8 +5,6 @@
   color: white;
 }
 
-
-
 .section__row__up {
   display: flex;
   justify-content: flex-end;
@@ -19,15 +17,16 @@
 .section__row__up > ul > li {
   margin-right: 60px;
   list-style-type: none;
-  font-family: "Yeseva One";
-
+}
+.section__row__up > ul > li > a {
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.3);
   text-transform: uppercase;
   line-height: 19.4px;
+  color: rgba(255, 255, 255, 0.3);
+  text-decoration: none;
+  font-family: "Yeseva One";
 }
-
-.section__row__up > ul > li:first-child {
+.section__row__up > ul > li > a:hover {
   color: #e3b873;
   /* text-decoration: underline; */
   border-bottom: #e3b873 1px solid;
