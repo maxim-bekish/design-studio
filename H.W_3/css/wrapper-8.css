@@ -13,49 +13,14 @@
   align-items: center;
 }
 
-.wrapper-8__input_okno > span {
-  /* font-family: "Nunito Sans"; */
-  font-size: 13px;
-  line-height: 21.28px;
-  color: rgba(255, 255, 255, 0.5);
-}
 .button__wrapper-8 {
-font-style: normal;
-font-size: 13px;
-
-} 
+  font-style: normal;
+  font-size: 13px;
+}
 .wrapper-8__input__button {
   display: flex;
   flex-direction: row-reverse;
   padding: 50px 0 34px 0;
-} 
-.wrapper-8__input_okno > input {
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  /* font-family: "Nunito Sans"; */
-  font-size: 14px;
-  line-height: 22.92px;
-  color: #ffffff;
-  border-bottom: 1px solid #363636;
-  background-color: black;
-}
-
-.wrapper-8__input_okno > input::placeholder {
-  /* font-family: "Nunito Sans"; */
-  font-size: 14px;
-  background-color: black;
-  line-height: 22.92px;
-  color: white;
-}
-
-.wrapper-8__input_okno > input:focus {
-  outline: none;
-  /* font-family: "Nunito Sans"; */
-  line-height: 22.92px;
-  font-size: 14px;
-  background-color: black;
-  color: #ffffff;
 }
 
 .wrapper-8__input_okno {
@@ -65,19 +30,6 @@ font-size: 13px;
   width: 100%;
 }
 
-.wrapper-8__check-mark {
-  display: flex;
-
-}
-.wrapper-8__input >.check-mark {
-    margin: 0;
-}
-.wrapper-8__input >.check-mark > .label>.text {
-  color: white;
-  padding-left: 8.6px;
-  font-size: 14px;
-  line-height: 22.92px;
-}
 .wrapper-8__section__col_modal_okno > .title > h4 {
   padding: 34px 0 45px 0;
   font-family: "Yeseva One";
@@ -114,4 +66,12 @@ font-size: 13px;
 .wrapper-8__svg_fon > svg {
   width: 100%;
   margin: 0 -10px 0 0;
+}
+
+.wrapper-8__check-mark {
+  margin: 0px 0 0px 0;
+}
+
+.label > .wrapper-8__text {
+  color: white;
 }

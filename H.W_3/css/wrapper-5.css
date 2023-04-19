@@ -1,8 +1,6 @@
-
-.wrapper-5{
-   background: url(../images/img7.png) 0 0/ 100% 100% no-repeat;
+.wrapper-5 {
+  background: url(../images/img7.png) 0 0/ 100% 100% no-repeat;
 }
-
 
 .mini-wrapper-5 {
   display: flex;
@@ -51,35 +49,26 @@
   margin: 39px 49px 19px 49px;
 }
 
-.wrapper-5__input > .wrapper-5__input_okno > span {
-  /* font-family: "Nunito Sans"; */
+.span_all {
   font-size: 13px;
   line-height: 21.28px;
   color: rgba(255, 255, 255, 0.5);
 }
+
 .button__wrapper-5 {
-/* cursor: pointer; */
-  /* text-align: center; */
-  /* background-color: #e3b873; */
   font-style: normal;
-font-size: 13px;
-  /* color: white; */
-  /* font-size: 13px; */
-  /* line-height: 21.28px; */
-  /* border: 0px; */
-  /* text-transform: uppercase; */
-} 
+  font-size: 13px;
+}
 
- .button__wrapper-5__input {
-
+.button__wrapper-5__input {
   display: flex;
   flex-direction: row-reverse;
-} 
-.wrapper-5__input_okno > input {
+}
+
+.input {
   border-top: none;
   border-left: none;
   border-right: none;
-  /* font-family: "Nunito Sans"; */
   font-size: 14px;
   line-height: 22.92px;
   color: #ffffff;
@@ -87,17 +76,15 @@ font-size: 13px;
   background-color: black;
 }
 
-.wrapper-5__input > .wrapper-5__input_okno > input::placeholder {
-  /* font-family: "Nunito Sans"; */
+.input::placeholder {
   font-size: 14px;
   background-color: black;
   line-height: 22.92px;
   color: white;
 }
 
-.wrapper-5__input_okno > input:focus {
+.input:focus {
   outline: none;
-  /* font-family: "Nunito Sans"; */
   line-height: 22.92px;
   font-size: 14px;
   background-color: black;
@@ -112,7 +99,6 @@ font-size: 13px;
 
 .section__col_modal_okno > .title > h4 {
   padding-top: 28px;
-  /* font-family: "Nunito Sans"; */
   font-size: 18px;
   line-height: 25.78px;
 }
@@ -129,18 +115,8 @@ font-size: 13px;
   margin: 48px 0;
 }
 
-.wrapper-5__input > .check-mark > label > .text {
-  color: #ffffff;
-}
-
-.wrapper-5__input > .check-mark {
-  justify-content: flex-start;
-  margin: 17px 0 39px 0;
-}
-
 .section__sale > p {
   margin: 0 0 0 25px;
-  /* font-family: "Nunito Sans"; */
   font-size: 18px;
   line-height: 25.78px;
   color: #e3b873;
@@ -152,4 +128,11 @@ font-size: 13px;
 .section__sale > div {
   width: 92px;
   height: 92px;
+}
+.wrapper-5__heck-mark {
+  justify-content: flex-start;
+  margin: 17px 0 39px 0;
+}
+.label > .wrapper-5__text {
+  color: white;
 }

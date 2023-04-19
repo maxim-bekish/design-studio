@@ -25,11 +25,8 @@
 }
 .wrapper-3__text {
   margin: 0 auto;
-
   width: 681px;
   text-align: center;
-  /* font-family: "Nunito Sans"; */
-
   font-size: 18px;
   line-height: 36.83px;
   color: #363636;
@@ -39,39 +36,34 @@
   justify-content: center;
   margin-top: 91.5px;
 }
-.input_okno > input::placeholder {
-  /* font-family: "Nunito Sans"; */
-  /* font-style: "Regular"; */
-  font-size: 14px;
-  line-height: 22.92px;
-  color: #363636;
+
+.input__wrapper-3 {
+  background-color: white !important ;
+  border-bottom: 1px solid rgba(54, 54, 54, 0.3) !important ;
+  color: black !important ;
 }
-.input_okno > input {
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+.input__wrapper-3::placeholder {
+  background-color: white !important;
+  color: #363636 !important ;
 }
-.input_okno > input:focus {
-  outline: none;
+.input__wrapper-3:focus {
+  background-color: white !important;
+  color: black !important;
 }
 .input_okno {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.input_okno > span {
-  /* font-family: "Nunito Sans"; */
-  font-size: 13px;
-  line-height: 21.28px;
-  color: rgba(54, 54, 54, 0.5);
+
+.span_wrapper-3 {
+  color: rgba(54, 54, 54, 0.5) !important;
 }
+
 .button__wrapper-3 {
-font-size: 13px;
-
-font-style: normal;
-
-} 
+  font-size: 13px;
+  font-style: normal;
+}
 .wrapper-3__input__phone {
   margin-right: 49px;
   margin-left: 58px;
@@ -83,19 +75,15 @@ font-style: normal;
   margin: 35px 0 147px 0;
 }
 
-
-
-
-
-
 .label > .text {
   margin-left: 8.5px;
-  /* font-family: "Nunito Sans"; */
   font-size: 14px;
   line-height: 22.92px;
   color: #181818;
 }
 .label {
+  display: flex;
+  align-items: center;
   cursor: pointer;
 }
 .checkbox {
