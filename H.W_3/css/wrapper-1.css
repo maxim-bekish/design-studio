@@ -1,4 +1,3 @@
-
 .wrapper-1__content > h2 {
   font-family: "Yeseva One";
 
@@ -58,5 +57,34 @@ h2 > span {
   }
   .section__roww {
     padding: 313px 33px;
+  }
+}
+@media (max-width: 768px) {
+  .wrapper-1 {
+    height: 476px;
+  }
+  .wrapper-1__content {
+    padding-top: 85px;
+  }
+  .wrapper-1__content > h2 {
+    font-size: 23px;
+    line-height: 23px;
+  }
+  .wrapper-1__content > h2 > span {
+    font-size: 23px;
+
+    line-height: 23px;
+  }
+  .section__roww {
+    padding: 0;
+  }
+
+  .wrapper-1__content > p {
+    font-size: 14px;
+    line-height: 19.02px;
+  }
+  .button-wrapper-1 {
+    margin: 26px 0 0 0 !important;
+    width: 100%;
   }
 }
