@@ -47,7 +47,7 @@
 }
 .section_left__title > p {
   margin-bottom: 42px;
-  font-family: "Nunito Sans";
+  /* font-family: "Nunito Sans"; */
 
   font-size: 14px;
   line-height: 26.73px;
@@ -62,7 +62,7 @@
   color: #e3b873;
 }
 .grid__info > span {
-  font-family: "Nunito Sans";
+  /* font-family: "Nunito Sans"; */
 
   font-size: 13px;
   line-height: 21.28px;
@@ -134,7 +134,7 @@
 }
 .wrapper-2_titel_camera > .titel {
   font-family: "Yeseva One";
-  font-style: "Regular";
+  /* font-style: "Regular"; */
   font-size: 20px;
   line-height: 27.72px;
   text-transform: uppercase;

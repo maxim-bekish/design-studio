@@ -28,7 +28,7 @@
 
   width: 681px;
   text-align: center;
-  font-family: "Nunito Sans";
+  /* font-family: "Nunito Sans"; */
 
   font-size: 18px;
   line-height: 36.83px;
@@ -40,8 +40,8 @@
   margin-top: 91.5px;
 }
 .input_okno > input::placeholder {
-  font-family: "Nunito Sans";
-  font-style: "Regular";
+  /* font-family: "Nunito Sans"; */
+  /* font-style: "Regular"; */
   font-size: 14px;
   line-height: 22.92px;
   color: #363636;
@@ -61,25 +61,17 @@
   justify-content: center;
 }
 .input_okno > span {
-  font-family: "Nunito Sans";
+  /* font-family: "Nunito Sans"; */
   font-size: 13px;
   line-height: 21.28px;
   color: rgba(54, 54, 54, 0.5);
 }
-.wrapper-3__input > button {
-  cursor: pointer;
-  padding: 0;
-  text-align: center;
-  background-color: #e3b873;
-  width: 200px;
-  height: 51px;
-  font-family: "Nunito Sans";
-  color: white;
-  font-size: 13px;
-  line-height: 26.6px;
-  border: 0px;
-  text-transform: uppercase;
-}
+.button__wrapper-3 {
+font-size: 13px;
+
+font-style: normal;
+
+} 
 .wrapper-3__input__phone {
   margin-right: 49px;
   margin-left: 58px;
@@ -98,7 +90,7 @@
 
 .label > .text {
   margin-left: 8.5px;
-  font-family: "Nunito Sans";
+  /* font-family: "Nunito Sans"; */
   font-size: 14px;
   line-height: 22.92px;
   color: #181818;

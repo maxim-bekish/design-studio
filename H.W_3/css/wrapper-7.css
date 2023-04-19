@@ -12,7 +12,7 @@
 }
 .wrapper-7__section-row > p {
   margin-top: 24px;
-  font-family: "Nunito Sans";
+  /* font-family: "Nunito Sans"; */
   font-size: 18px;
   line-height: 29.46px;
   color: #363636;
@@ -39,7 +39,7 @@
   line-height: 22.87px;
 }
 .wrapper-7__box > p {
-  font-family: "Nunito Sans";
+  /* font-family: "Nunito Sans"; */
   font-size: 13px;
   line-height: 23px;
   color: #959595;

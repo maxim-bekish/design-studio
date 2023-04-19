@@ -14,34 +14,26 @@
 }
 
 .wrapper-8__input_okno > span {
-  font-family: "Nunito Sans";
+  /* font-family: "Nunito Sans"; */
   font-size: 13px;
   line-height: 21.28px;
   color: rgba(255, 255, 255, 0.5);
 }
-.wrapper-8__input > .button > button {
-  cursor: pointer;
-  text-align: center;
-  background-color: #e3b873;
-  width: 200px;
-  height: 51px;
-  font-family: "Nunito Sans";
-  color: white;
-  font-size: 13px;
-  line-height: 21.28px;
-  border: 0px;
-  text-transform: uppercase;
-}
-.wrapper-8__input > .button {
+.button__wrapper-8 {
+font-style: normal;
+font-size: 13px;
+
+} 
+.wrapper-8__input__button {
   display: flex;
   flex-direction: row-reverse;
   padding: 50px 0 34px 0;
-}
+} 
 .wrapper-8__input_okno > input {
   border-top: none;
   border-left: none;
   border-right: none;
-  font-family: "Nunito Sans";
+  /* font-family: "Nunito Sans"; */
   font-size: 14px;
   line-height: 22.92px;
   color: #ffffff;
@@ -50,7 +42,7 @@
 }
 
 .wrapper-8__input_okno > input::placeholder {
-  font-family: "Nunito Sans";
+  /* font-family: "Nunito Sans"; */
   font-size: 14px;
   background-color: black;
   line-height: 22.92px;
@@ -59,7 +51,7 @@
 
 .wrapper-8__input_okno > input:focus {
   outline: none;
-  font-family: "Nunito Sans";
+  /* font-family: "Nunito Sans"; */
   line-height: 22.92px;
   font-size: 14px;
   background-color: black;

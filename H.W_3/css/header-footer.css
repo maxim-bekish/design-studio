@@ -10,11 +10,11 @@ footer {
   background-color: black;
 }
 .container {
-  width: 1236px;
-  min-width: 600px;
-  max-width: 1400px;
+  max-width: 1263px;
+
   margin: 0 auto;
 }
+
 h1 {
   font-size: 11px;
   line-height: 15px;
@@ -31,13 +31,11 @@ h1 {
 .section__col {
   z-index: 2;
 }
-
 nav > ul {
   display: flex;
 }
 nav > ul > li {
   margin: 0 0 0 47px;
-
   list-style-type: none;
 }
 
@@ -48,19 +46,21 @@ nav > ul > li {
   text-decoration-line: underline;
   color: #e3b873;
 }
-.section__col__Request {
+.button {
+    font-style: italic;
   cursor: pointer;
   background: #e3b873;
   box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
   border-radius: 2px;
   text-transform: uppercase;
-  font-weight: 400;
   font-size: 11px;
   line-height: 15px;
   text-align: center;
   color: white;
-  padding: 13px 33px;
+  padding: 15px 33px;
   border: 0px;
+  width: 251px;
+  height: 51px ;
 }
 
 nav > ul > li > a {
