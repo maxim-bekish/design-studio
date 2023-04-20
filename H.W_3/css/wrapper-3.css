@@ -1,22 +1,25 @@
-.wrapper-3__video_fon {
-  background-color: rgba(0, 0, 0);
-  position: relative;
+.wrapper-3__video_photo {
+  background: url(/H.W_3/images/img3.png) 0 0 /100% 100% no-repeat;
+  width: 100%;
+  height: 100%;
 }
-.wrapper-3__video_fon > img {
-  opacity: 0.2;
+
+.wrapper-3__fon {
+  background-color: rgba(0, 0, 0, 0.8);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
-.play {
-  position: absolute;
-  top: 40%;
-  left: 40%;
-}
-.wrapper-3__video {
-  margin-top: -226px;
+
+.wrapper-3__all {
   width: 818px;
   margin: -226px auto 0 auto;
   height: 434px;
 }
-.section__row > .wrapper-3__line {
+.wrapper-3__line {
   display: flex;
   margin: 62px auto 34px auto;
   width: 55px;
@@ -34,6 +37,7 @@
 .wrapper-3__input {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin-top: 91.5px;
 }
 
@@ -104,4 +108,80 @@
 }
 .checkbox:checked + .fake::before {
   opacity: 1;
+}
+.check-mark-mobi {
+  display: none;
+}
+@media (max-width: 800px) {
+  .wrapper-3__all {
+    width: 100%;
+    height: 207px;
+    margin: 0;
+  }
+  .play > svg {
+    width: 70px;
+    height: 70px;
+  }
+  .wrapper-3__fon > .play {
+    display: flex;
+  }
+  .wrapper-3__line {
+    margin: 28px auto 25px auto;
+  }
+  .wrapper-3__text {
+    width: 100%;
+    font-size: 11px;
+    line-height: 18px;
+    color: white;
+  }
+
+  .wrapper-3 {
+    background: rgba(24, 24, 24);
+  }
+  .span_wrapper-3 {
+    color: rgba(255, 255, 255, 0.5) !important;
+  }
+
+  .input__wrapper-3 {
+    background-color: #181818 !important ;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5) !important ;
+    color: white !important ;
+  }
+  .input__wrapper-3::placeholder {
+    background-color: #181818 !important;
+    color: white !important ;
+  }
+  .input__wrapper-3:focus {
+    background-color: #181818 !important;
+    color: white !important;
+  }
+  .wrapper-3__input__phone,
+  .wrapper-3__input__name {
+    margin: 0;
+    width: 100%;
+  }
+
+  .wrapper-3__input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 91.5px;
+  }
+
+  .button__wrapper-3 {
+    max-width: 767px;
+    width: 100%;
+    margin-bottom: -26px;
+  }
+
+  .label > .text {
+    color: white;
+  }
+
+  .check-mark {
+    display: none;
+  }
+  .check-mark-mobi {
+    display: block;
+    margin: 26px 0 62px 0;
+  }
 }

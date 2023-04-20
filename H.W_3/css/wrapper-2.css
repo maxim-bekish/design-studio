@@ -139,11 +139,18 @@
   line-height: 27.72px;
   text-transform: uppercase;
 }
-@media (max-width: 768px) {
+.wrapper-2__mobi-photo{
+  display: none;
+}
+@media (max-width: 800px) {
   .section_left__nav,
   .section-right__down,
   .section__row__up {
     display: none;
+  }
+
+  .section__row__down {
+    padding: 0;
   }
   .section_left__title > h2 {
     margin-top: 36px;
@@ -170,7 +177,7 @@
     display: flex;
     align-items: center;
     height: 241px;
-    width: 340px;
+  width: 100%;
     justify-content: space-between;
     margin: 0 0 36px 0;
     background: url(../images/img14.png) 0 0 /100% 100% no-repeat;
