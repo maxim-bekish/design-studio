@@ -75,7 +75,7 @@
     align-items: center;
   }
   .section__row__img > div > img {
-    max-width: 340px;
+    max-width: 100%;
   }
   .section__col__text {
     margin-left: 0;
@@ -83,7 +83,8 @@
   }
 
   .section__row__img>div {
-    margin: 0 0 300px 0;
+    margin: 0 0 250px 0;
+    max-width: 100%;
   }
 
 
