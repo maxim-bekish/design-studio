@@ -136,3 +136,9 @@
 .label > .wrapper-5__text {
   color: white;
 }
+@media (max-width:800px) {
+  .wrapper-5{
+    display: none;
+  }
+  
+}

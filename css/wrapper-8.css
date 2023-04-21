@@ -75,3 +75,44 @@
 .label > .wrapper-8__text {
   color: white;
 }
+@media (max-width: 800px) {
+  .wrapper-8 {
+    background-color: black;
+  }
+  .wrapper-8__svg_fon {
+    display: none;
+  }
+  .wrapper-8__section__col_modal_okno {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  .name-phone-question {
+    width: 100%;
+  }
+  .name-phone {
+    width: 100%;
+    flex-direction: column;
+  }
+    .name-phone>div{
+      width: 100%;
+    }
+  .name-phone>.wrapper-8__input__phone{
+    padding-top: 47px;
+  }
+  .mobi_check-mark{
+display: flex;
+  }
+  .button__wrapper-8{
+    max-width: 100%;
+  }
+  .wrapper-8__input__button{
+width: 100%;
+  }
+
+.wrapper-8__input_okno{
+  max-width: 100%;
+}
+
+
+
+}

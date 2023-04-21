@@ -28,7 +28,6 @@
 }
 
 .wrapper-6__list-menu > ul > li > a {
-  /* font-family: "Nunito Sans"; */
   text-decoration: none;
   font-size: 20px;
   color: #ffffff;
@@ -48,20 +47,13 @@
 .wrapper-6__section_col__right > .right {
   width: 354px;
   margin-left: 43px;
-  /* display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 557px 349px;
-  grid-column-gap: 0px;
-  grid-row-gap: 39px; */
 }
 
 .wrapper-6__section_col__right > .left {
   width: 354px;
-  /* display: grid;
-  grid-template-columns: 354px;
-  grid-template-rows: 354px 624px;
-  grid-column-gap: px;
-  grid-row-gap: 39px; */
+}
+.mobi-title {
+  display: none;
 }
 .left > img:first-of-type {
   margin-top: -41px;
@@ -74,4 +66,43 @@
 }
 .right > img:nth-child(2) {
   margin-top: 37px;
+}
+@media (max-width: 800px) {
+  .wrapper-6__list-menu {
+    display: none;
+  }
+  .wrapper-6 {
+    max-width: 100%;
+    height: 100%;
+    aspect-ratio: 16 / 9;
+
+    margin: 0 18px;
+  }
+  .wrapper-6__section_col__right {
+    display: none;
+  }
+
+  .wrapper-6__color {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  .wrapper-6__section__row {
+    justify-content: center;
+  }
+  .wrapper-6__section_col__left > h4 {
+    margin-top: -250px;
+  }
+  .wrapper-6__color {
+    display: none;
+  }
+  .mobi-title {
+    display: block;
+    text-align: center;
+    margin: 0px 0 20px 0;
+      font-family: "Yeseva One";
+  font-size: 27px;
+  text-transform: uppercase;
+  color: #e3b873;
+  padding-bottom: 37px;
+  }
 }
