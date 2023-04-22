@@ -136,23 +136,23 @@
   }
 
   .wrapper-3 {
-    background: black;
+    background-color: black;
   }
   .span_wrapper-3 {
     color: rgba(255, 255, 255, 0.5) !important;
   }
 
   .input__wrapper-3 {
-    background-color: #181818 !important ;
+    background-color: black !important ;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5) !important ;
     color: white !important ;
   }
   .input__wrapper-3::placeholder {
-    background-color: #181818 !important;
+    background-color: black !important;
     color: white !important ;
   }
   .input__wrapper-3:focus {
-    background-color: #181818 !important;
+    background-color: black !important;
     color: white !important;
   }
   .wrapper-3__input__phone,

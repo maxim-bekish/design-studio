@@ -98,4 +98,9 @@ h2 > span {
     margin: 26px 0 0 0 !important;
     width: 100%;
   }
+
+
+  .wrapper-1__content__button{
+    padding-bottom: 20px;
+  }
 }
