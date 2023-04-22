@@ -94,5 +94,7 @@ nav > ul > li > a:hover {
     text-decoration: none;
   }
 
-
+.footer{
+  display: none;
+}
 }
