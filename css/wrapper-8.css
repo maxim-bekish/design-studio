@@ -95,27 +95,23 @@
     width: 100%;
     flex-direction: column;
   }
-    .name-phone>div{
-      width: 100%;
-    }
-  .name-phone>.wrapper-8__input__phone{
+  .name-phone > div {
+    width: 100%;
+  }
+  .name-phone > .wrapper-8__input__phone {
     padding-top: 47px;
   }
-  .mobi_check-mark{
-display: flex;
+  .mobi_check-mark {
+    display: flex;
   }
-  .button__wrapper-8{
+  .button__wrapper-8 {
+    width: 100%;
+  }
+  .wrapper-8__input__button {
+    width: 100%;
+  }
+
+  .wrapper-8__input_okno {
     max-width: 100%;
-    
   }
-  .wrapper-8__input__button{
-width: 100%;
-  }
-
-.wrapper-8__input_okno{
-  max-width: 100%;
-}
-
-
-
 }
