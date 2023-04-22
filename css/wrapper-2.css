@@ -122,7 +122,7 @@
 .camera > .line {
   width: 32px;
   border: #e3b873 solid 1px;
-  height: 1px;
+ 
 }
 
 .camera {
@@ -139,7 +139,7 @@
   line-height: 27.72px;
   text-transform: uppercase;
 }
-.wrapper-2__mobi-photo{
+.wrapper-2__mobi-photo {
   display: none;
 }
 @media (max-width: 768px) {
@@ -176,14 +176,14 @@
   .wrapper-2__mobi-photo {
     display: flex;
     align-items: center;
-      aspect-ratio: 16 / 9;
-  width: 100%;
+    aspect-ratio: 16 / 9;
+    width: 100%;
     justify-content: space-between;
     margin: 0 0 36px 0;
     background: url(../images/img14.png) 0 0 /100% 100% no-repeat;
   }
 
- .arrow-mobi {
+  .arrow-mobi {
     display: flex;
     margin: 0 13px;
     align-items: center;
@@ -193,18 +193,14 @@
     border-radius: 50%;
     background-color: #e3b873;
   }
-  .wrapper-2_titel_camera>h3 {
+  .wrapper-2_titel_camera > h3 {
     font-size: 22px;
     line-height: 30;
-    margin:50px  19px 0;
+    margin: 50px 19px 0;
   }
 
-  .wrapper-2_titel_camera{
-    padding: 0
-    ;
+  .wrapper-2_titel_camera {
+    padding: 0px 0px 30px 0px;
   }
-
-
-
-
+  
 }

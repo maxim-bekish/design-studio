@@ -86,7 +86,7 @@
   .mobi-gradient {
     display: block;
     padding: 0 18px;
-    background: linear-gradient(white 50%, black 50%);
+    background: linear-gradient(white 50%, #181818 50%);
   }
  .mobi_img {
     display: flex;

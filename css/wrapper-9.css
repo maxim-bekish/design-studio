@@ -1,5 +1,5 @@
 .wrapper-9 {
-  background: url(/H.W_3/images/img13.png) 0 0 / 100% 100% no-repeat;
+  background: url(/images/img13.png) 0 0 / 100% 100% no-repeat;
 }
 .wrapper-9__color {
   background: linear-gradient(
@@ -61,7 +61,7 @@
 
 }
 .wrapper-9__color{
-  background: black;
+  background: #181818;
 }
 .mobi-maps{
   max-width: 100%;

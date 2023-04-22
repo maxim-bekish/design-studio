@@ -78,7 +78,7 @@
 }
 @media (max-width: 768px) {
   .wrapper-8 {
-    background-color: black;
+    background-color: #181818;
   }
   .wrapper-8__svg_fon {
     display: none;
@@ -86,8 +86,10 @@
   .wrapper-8__section__col_modal_okno {
     max-width: 100%;
     margin: 0 auto;
+    background: #181818;
     /* padding: 230px 0 0 0 ; */
   }
+
   .name-phone-question {
     width: 100%;
   }
@@ -110,8 +112,14 @@
   .wrapper-8__input__button {
     width: 100%;
   }
-
+  .wrapper-8__input_okno>.input{
+      background: #181818;
+  }
+  .wrapper-8__input_okno>.input::placeholder{
+      background: #181818;
+  }
   .wrapper-8__input_okno {
     max-width: 100%;
+   
   }
 }

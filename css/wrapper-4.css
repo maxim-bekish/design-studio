@@ -82,15 +82,19 @@
     max-width: 290px;
   }
 
-  .section__row__img>div:nth-child(2) {
+  .section__row__img > div:nth-child(2) {
     margin: 250px 0;
     max-width: 100%;
   }
 
-.wrapper-4{
-  margin-bottom: 240px;
-}
+  .wrapper-4 {
+    margin-bottom: 240px;
+  }
   .section__row__title {
     margin-top: 83px;
+  }
+
+  .wrapper-4__title {
+    padding: 0 0 20px 0;
   }
 }
