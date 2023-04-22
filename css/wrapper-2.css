@@ -142,7 +142,7 @@
 .wrapper-2__mobi-photo{
   display: none;
 }
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .section_left__nav,
   .section-right__down,
   .section__row__up {

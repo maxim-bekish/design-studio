@@ -70,7 +70,7 @@
 .wrapper-6 > .mobi_img {
   display: none;
 }
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .wrapper-6__list-menu {
     display: none;
   }

@@ -74,7 +74,7 @@
 .wrapper-7__box__down1:first-of-type {
   border-right: 1px solid white;
 }
-@media (max-width:800px) {
+@media (max-width:768px) {
   .wrapper-7{
     display: none;
   }

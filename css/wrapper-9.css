@@ -39,7 +39,7 @@
 .mobi__wrapper-9__icon{
   display: none;
 }
-@media (max-width:800px) {
+@media (max-width:768px) {
   .wrapper-9__icon{
     display: none;
   }
@@ -63,6 +63,8 @@
 .wrapper-9{
   background: black;
 }
-
+.mobi-maps{
+  max-width: 100%;
+}
 
 }

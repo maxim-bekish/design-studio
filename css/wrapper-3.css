@@ -112,7 +112,7 @@
 .check-mark-mobi {
   display: none;
 }
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .wrapper-3__all {
     width: 100%;
     height: 207px;
