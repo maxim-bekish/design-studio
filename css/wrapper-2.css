@@ -176,14 +176,14 @@
   .wrapper-2__mobi-photo {
     display: flex;
     align-items: center;
-    height: 241px;
+      aspect-ratio: 16 / 9;
   width: 100%;
     justify-content: space-between;
     margin: 0 0 36px 0;
     background: url(../images/img14.png) 0 0 /100% 100% no-repeat;
   }
 
-  .wrapper-2__mobi-photo > div {
+ .arrow-mobi {
     display: flex;
     margin: 0 13px;
     align-items: center;
