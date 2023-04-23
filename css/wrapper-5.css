@@ -1,5 +1,5 @@
 .wrapper-5 {
-  background: url(/images/img7.png) 0 0/ 100% 100% no-repeat;
+  background: url(../images/img7.png) 0 0/ 100% 100% no-repeat;
 }
 
 .mini-wrapper-5 {
@@ -10,7 +10,7 @@
 .all_mini_wrapper-5 {
   padding: 100px 0 0 0;
   height: 473px;
-  width: 374px;
+    max-width: 374px;
   /* margin-right: 219px; */
   display: flex;
   flex-direction: column;
@@ -42,6 +42,7 @@
 .wrapper-5__section__row {
   display: flex;
 justify-content: space-around;
+  margin-top: 311px;
 }
 .wrapper-5__input {
   display: flex;
@@ -102,10 +103,7 @@ justify-content: space-around;
   font-size: 18px;
   line-height: 25.78px;
 }
-.wrapper-5__section__row {
-  display: flex;
-  margin-top: 311px;
-}
+
 
 .section__col_modal_okno > .title {
   text-align: center;
