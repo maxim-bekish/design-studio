@@ -115,6 +115,10 @@
     height: 100%;
     margin: 0;
   }
+
+  .wrapper-3 {
+    background: var(--colorBlackTwo);
+  }
   .play > svg {
     width: 70px;
     height: 70px;
@@ -135,24 +139,22 @@
     margin-bottom: 47px ;
     width: 100%;
   }
-  .wrapper-3 {
-    background-color: var(--colorBlack);
-  }
+ 
   .span_wrapper-3 {
     color: rgba(255, 255, 255, 0.5) !important;
   }
 
   .input__wrapper-3 {
-    background-color: var(--colorBlack) !important ;
+    background-color: var(--colorBlackTwo) !important ;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5) !important ;
     color: var(--colorWhite) !important ;
   }
   .input__wrapper-3::placeholder {
-    background-color: var(--colorBlack) !important;
+    background-color: var(--colorBlackTwo) !important;
     color: var(--colorWhite) !important ;
   }
   .input__wrapper-3:focus {
-    background-color: var(--colorBlack) !important;
+    background-color: var(--colorBlackTwo) !important;
     color: var(--colorWhite) !important;
   }
   .wrapper-3__input__phone {

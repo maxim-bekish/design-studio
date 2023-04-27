@@ -49,6 +49,7 @@ text-decoration: none;
   }
   .mobi__wrapper-9__icon{
     display: flex;
+
   }
    .mobi__wrapper-9__icon>a:last-child{
     margin-left: 20px;
@@ -67,6 +68,9 @@ text-decoration: none;
 .wrapper-9__color{
   background: var(--colorBlackTwo);
 }
-
+.mobi__wrapper-9__icon svg{
+  width: 40px;
+  height: 40px;
+}
 
 }
