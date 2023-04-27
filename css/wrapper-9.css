@@ -39,9 +39,7 @@
 .mobi__wrapper-9__icon{
   display: none;
 }
-.mobi-maps{
-max-width: 100%;
-}
+
 @media (max-width: 768px) {
   .wrapper-9__icon{
     display: none;
@@ -64,7 +62,7 @@ max-width: 100%;
 
 }
 .wrapper-9__color{
-  background: #181818;
+  background: var(--colorBlackTwo);
 }
 
 

@@ -1,8 +1,8 @@
 .wrapper-8__section__col_modal_okno {
   position: relative;
   margin: -243px auto -100px auto;
-  background-color: black;
-  color: #ffffff;
+  background-color: var(--colorBlack);
+  color: var(--colorWhite);
   max-width: 883px;
   height: 445px;
 }
@@ -31,7 +31,7 @@
   font-family: "Yeseva One";
   font-size: 20px;
   line-height: 27.7px;
-  color: #ffffff;
+  color: var(--colorWhite);
 }
 .wrapper-8__section__col_modal_okno > .title {
   text-align: center;
@@ -69,12 +69,12 @@
 }
 
 .label > .wrapper-8__text {
-  color: white;
+  color: var(--colorWhite);
 }
 
 @media (max-width: 768px) {
   .wrapper-8 {
-    background-color: #181818;
+    background-color: var(--colorBlackTwo);
   }
   .wrapper-8__svg_fon {
     display: none;
@@ -82,7 +82,7 @@
   .wrapper-8__section__col_modal_okno {
   
     margin: 0 auto;
-    background: #181818;
+    background: var(--colorBlackTwo);
     
   }
 
@@ -109,10 +109,10 @@
     width: 100%;
   }
   .wrapper-all>.input{
-      background: #181818;
+      background: var(--colorBlackTwo);
   }
   .wrapper-all>.input::placeholder{
-      background: #181818;
+      background: var(--colorBlackTwo);
   }
   .wrapper-all {
     max-width: 100%;

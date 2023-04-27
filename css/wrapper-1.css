@@ -2,14 +2,14 @@
   font-family: "Yeseva One";
 
   font-size: 40px;
-  color: white;
+  color: var(--colorWhite);
   line-height: 53px;
   text-transform: uppercase;
 }
 .wrapper-1__content > p {
   margin-top: 19px;
   margin-bottom: 40px;
-  color: white;
+  color: var(--colorWhite);
 
   font-size: 22px;
   line-height: 36px;
@@ -31,7 +31,7 @@ display: none;
 }
 
 .button-wrapper-1:last-child {
-  border: 1px solid #ffffff;
+  border: 1px solid var(--colorWhite);
   background: rgba(0, 0, 0, 0);
   margin-left: 20px;
   
@@ -49,9 +49,9 @@ display: none;
 }
 
 .wrapper-2 {
-  background: black;
+  background: var(--colorBlack);
   z-index: -1;
-  color: white;
+  color: var(--colorWhite);
 }
 
 .section__roww {
@@ -83,7 +83,7 @@ display: none;
 }
   .mobi-button-wrapper-1{
 display: block;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--colorWhite);
   background: rgba(0, 0, 0, 0);
   margin-left: 20px;
 }

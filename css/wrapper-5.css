@@ -25,7 +25,7 @@
 .marker > span {
   font-family: "Yeseva One";
   position: absolute;
-  color: #ffffff;
+  color: var(--colorWhite);
   line-height: 24.95px;
   font-size: 18px;
   top: 26px;
@@ -33,8 +33,8 @@
 }
 .section__col_modal_okno {
   margin: 106px 0 36px 0;
-  background-color: black;
-  color: #ffffff;
+  background-color: var(--colorBlack);
+  color: var(--colorWhite);
   width: 506px;
   height: 509px;
 }
@@ -42,7 +42,7 @@
 .wrapper-5__section__row {
   display: flex;
 justify-content: space-around;
-  margin-top: 311px;
+  margin-top: 200px;
 }
 .wrapper-5__input {
   display: flex;
@@ -106,7 +106,7 @@ justify-content: space-around;
   margin: 17px 0 39px 0;
 }
 .label > .wrapper-5__text {
-  color: white;
+  color: var(--colorWhite);
 }
 @media (max-width:768px) {
   .wrapper-5{

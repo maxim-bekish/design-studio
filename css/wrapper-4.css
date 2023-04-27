@@ -5,7 +5,7 @@
   font-family: "Yeseva One";
   font-size: 20px;
   line-height: 27.72px;
-  color: #181818;
+  color: var(--colorBlackTwo);
 }
 .section__row__title {
   display: flex;
@@ -43,7 +43,7 @@
 .section__col__text {
   z-index: 2;
   position: relative;
-  background-color: white;
+  background-color: var(--colorWhite);
   margin: -127px 0px 0 30px;
   display: flex;
   flex-direction: column;
@@ -62,7 +62,7 @@
 }
 .wrapper_4__price > span {
   font-family: "Yeseva One";
-  color: white;
+  color: var(--colorWhite);
   font-size: 18px;
   line-height: 24.95px;
   display: flex;
