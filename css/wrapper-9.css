@@ -35,6 +35,9 @@
 .wrapper-9__icon {
   padding: 26px 0px 43px 0;
 }
+.wrapper-9__icon>a{
+text-decoration: none;
+}
 
 .mobi__wrapper-9__icon{
   display: none;

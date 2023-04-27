@@ -64,8 +64,7 @@
 .wrapper__img-100{
 max-width: 100%;
 }
-/* @media (max-width: 768px) {
-} */
+
 
 :root {
   --colorOrange: rgba(227, 184, 115, 1);

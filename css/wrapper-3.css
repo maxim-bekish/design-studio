@@ -55,7 +55,6 @@
   color: var(--colorBlack) !important;
 }
 
-
 .span_wrapper-3 {
   color: rgba(54, 54, 54, 0.5) !important;
 }
@@ -132,7 +131,10 @@
     line-height: 18px;
     color: var(--colorWhite);
   }
-
+  .wrapper-3__input__name {
+    margin-bottom: 47px ;
+    width: 100%;
+  }
   .wrapper-3 {
     background-color: var(--colorBlack);
   }
@@ -153,8 +155,7 @@
     background-color: var(--colorBlack) !important;
     color: var(--colorWhite) !important;
   }
-  .wrapper-3__input__phone,
-  .wrapper-3__input__name {
+  .wrapper-3__input__phone {
     margin: 0;
     width: 100%;
   }
@@ -162,7 +163,7 @@
   .wrapper-3__input {
     display: flex;
     flex-direction: column;
- margin-top: 40px;
+    margin-top: 40px;
   }
 
   .button__wrapper-3 {
