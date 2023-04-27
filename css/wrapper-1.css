@@ -22,7 +22,7 @@ h2 > span {
   line-height: 53px;
   text-transform: uppercase;
 
-  color: #e3b873;
+  color: var(--colorOrange);
 }
 
 

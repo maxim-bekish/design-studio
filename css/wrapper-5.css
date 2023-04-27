@@ -66,37 +66,11 @@ justify-content: space-around;
   flex-direction: row-reverse;
 }
 
-.input {
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  font-size: 14px;
-  line-height: 22.92px;
-  color: #ffffff;
-  border-bottom: 1px solid #363636;
-  background-color: black;
-}
 
-.input::placeholder {
-  font-size: 14px;
-  background-color: black;
-  line-height: 22.92px;
-  color: white;
-}
 
-.input:focus {
-  outline: none;
-  line-height: 22.92px;
-  font-size: 14px;
-  background-color: black;
-  color: #ffffff;
-}
 
-.wrapper-5__input_okno {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+
+
 
 .section__col_modal_okno > .title > h4 {
   padding-top: 28px;
@@ -117,7 +91,7 @@ justify-content: space-around;
   margin: 0 0 0 25px;
   font-size: 18px;
   line-height: 25.78px;
-  color: #e3b873;
+  color: var(--colorOrange);
 }
 .section__sale {
   display: flex;

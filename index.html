@@ -6,7 +6,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital@0;1&family=Yeseva+One&display=swap"
     rel="stylesheet">
-
+  <link rel="stylesheet" href="./css/all-style.css">
   <link rel="stylesheet" href="./css/header-footer.css">
   <link rel="stylesheet" href="./css/wrapper-1.css">
   <link rel="stylesheet" href="./css/wrapper-2.css">
@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="./css/wrapper-8.css">
   <link rel="stylesheet" href="./css/wrapper-9.css">
 
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,11 +29,11 @@
 
 
   <header>
-    <section class="container">
-      <section class="section__row header-footer__one">
-        <section class="section__col logo">
+    <div class="container">
+      <div class="section__row header-footer__one">
+        <div class="section__col logo">
           <h1>IC "Repair Design Project"</h1>
-        </section>
+        </div>
         <nav class="nav__wrapper-1">
           <ul>
             <li> <a href="#"> HOME </a> </li>
@@ -43,12 +44,12 @@
             <li> <a href="#"> CONTACTS </a> </li>
           </ul>
         </nav>
-        <section class="section__col">
+        <div class="section__col">
           <a class="phone" href="tel:+79287683239" target="_blank">+7 (928) 768-32-39</a>
-        </section>
+        </div>
         <button class="button button-header-footer">Request a call</button>
-      </section>
-    </section>
+      </div>
+    </div>
   </header>
 
   <section class="wrapper-1 ">
@@ -167,7 +168,7 @@
       </div>
     </div>
   </section>
-  
+
   <section class="wrapper-3">
     <div class="container">
       <div class="wrapper-3__all">
@@ -187,7 +188,8 @@
                       result="hardAlpha" />
                     <feOffset dy="5" />
                     <feGaussianBlur stdDeviation="15" />
-                    <feColorMatrix type="matrix" values="0 0 0 0 0.890196 0 0 0 0 0.721569 0 0 0 0 0.45098 0 0 0 0.2 0" />
+                    <feColorMatrix type="matrix"
+                      values="0 0 0 0 0.890196 0 0 0 0 0.721569 0 0 0 0 0.45098 0 0 0 0.2 0" />
                     <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_11184" />
                     <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_11184" result="shape" />
                   </filter>
@@ -198,7 +200,7 @@
         </div>
       </div>
       <div class="section__row">
-        
+
         <div class="wrapper-3__line"></div>
         <div class="section__row">
           <p class="wrapper-3__text">At each facility, a camera is installed that broadcasts the progress of work on
@@ -213,13 +215,13 @@
         </div>
         <div class="section__row">
           <div class="wrapper-3__input">
-            <div class="wrapper-3__input__name input_okno">
+            <div class="wrapper-3__input__name wrapper-all">
               <span class=" span_wrapper-3 span_all">Name</span>
               <input class="input input__wrapper-3" type="text" placeholder="What is your name:">
             </div>
-            <div class="wrapper-3__input__phone input_okno">
+            <div class="wrapper-3__input__phone wrapper-all">
               <span class="span_all span_wrapper-3">Phone</span>
-              <input class="input input__wrapper-3" type="text" placeholder="Your phone number:">
+              <input class="input input__wrapper-3" type="number" placeholder="Your phone number:">
             </div>
             <div class="check-mark-mobi">
               <label class="label">
@@ -259,7 +261,7 @@
 
       </div>
       <div class="section__row__img">
-        <div> <img src="./images/img4.png" alt="disain">
+        <div> <img class="wrapper__img-100" src="./images/img4.png" alt="disain">
           <div class="section__col__text">
             <h3>Redecorating</h3>
             <ul>
@@ -276,7 +278,7 @@
             </div>
           </div>
         </div>
-        <div> <img src="./images/img5.png" alt="disain">
+        <div> <img class="wrapper__img-100" src="./images/img5.png" alt="disain">
           <div class="section__col__text">
             <h3>Overhaul </h3>
             <ul>
@@ -293,7 +295,7 @@
             </div>
           </div>
         </div>
-        <div> <img src="./images/img6.png" alt="disain">
+        <div> <img class="wrapper__img-100" src="./images/img6.png" alt="disain">
           <div class="section__col__text">
             <h3>Designer Repair</h3>
             <ul>
@@ -439,15 +441,15 @@
               </h4>
             </div>
             <div class="wrapper-5__input">
-              <div class="wrapper-5__input__name wrapper-5__input_okno">
+              <div class="wrapper-5__input__name wrapper-all">
                 <span class="span_all">Name</span>
                 <input class="input " type="text" placeholder="What is your name:">
               </div>
-              <div class="wrapper-5__input__phone wrapper-5__input_okno">
+              <div class="wrapper-5__input__phone wrapper-all">
                 <span class="span_all">Phone</span>
                 <input class="input " type="number" placeholder="Your phone number:">
               </div>
-              <div class="wrapper-5__input__email wrapper-5__input_okno">
+              <div class="wrapper-5__input__email wrapper-all">
                 <span class="span_all">Email</span>
                 <input class="input " type="email" placeholder="Your email">
               </div>
@@ -524,10 +526,6 @@
           </svg></div>
       </div>
     </div>
-
-
-
-
     <div class="wrapper-6__color">
       <div class="container">
         <div class="wrapper-6__section__row">
@@ -553,12 +551,12 @@
           </div>
           <div class="wrapper-6__section_col__right">
             <div class="left">
-              <img src="./images/img9_1.png" alt="design">
-              <img src="./images/img9_2.png" alt="design">
+              <img class="wrapper__img-100" src="./images/img9_1.png" alt="design">
+              <img class="wrapper__img-100" src="./images/img9_2.png" alt="design">
             </div>
             <div class="right">
-              <img src="./images/img10_1.png" alt="design">
-              <img src="./images/img10_2.png" alt="design">
+              <img class="wrapper__img-100" src="./images/img10_1.png" alt="design">
+              <img class="wrapper__img-100" src="./images/img10_2.png" alt="design">
             </div>
           </div>
         </div>
@@ -2367,7 +2365,6 @@
           fill="#4D4D4D" />
       </svg>
     </div>
-
     <div class="container">
       <div class="wrapper-8__section__col_modal_okno">
         <div class="title">
@@ -2378,16 +2375,16 @@
         <div class="wrapper-8__input">
           <div class="name-phone-question">
             <div class="name-phone">
-              <div class="wrapper-8__input__name wrapper-8__input_okno">
+              <div class="wrapper-8__input__name wrapper-all">
                 <span class="span_all">Name</span>
                 <input class="input " type="text" placeholder="What is your name:">
               </div>
-              <div class="wrapper-8__input__phone wrapper-8__input_okno">
+              <div class="wrapper-8__input__phone wrapper-all">
                 <span class="span_all">Phone</span>
-                <input class="input " type="text" placeholder="Your phone number:">
+                <input class="input " type="number" placeholder="Your phone number:">
               </div>
             </div>
-            <div class="wrapper-8__input__question wrapper-8__input_okno">
+            <div class="wrapper-8__input__question wrapper-all">
               <span class="span_all">Question</span>
               <input class="input " type="text" placeholder="I want to know:">
             </div>
@@ -2412,7 +2409,6 @@
       <div class="container">
         <div class=" wrapper-9__section__row">
           <div class="wrapper-9__content">
-
             <div class="wrapper-9__icon mobi__wrapper-9__icon">
               <a href="#">
                 <svg width="28" height="29" viewBox="0 0 28 29" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -2438,8 +2434,7 @@
             </div>
             <div>
               <h3>Rostov-on-Don, Nansen St., 239 Shopping Center <br>
-                Decorum Tel <a href="tel:+79287683229">+7 (928) 768 32 29 </a></h3>
-
+                Decorum Tel <a href="tel:+79287683229" target="_blank">+7 (928) 768 32 29 </a></h3>
             </div>
             <div class="wrapper-9__icon">
               <a href="#">
@@ -2473,27 +2468,27 @@
   </section>
 
   <footer class="footer">
-      <section class="container">
-        <section class="section__row header-footer__one">
-          <section class="section__col logo">
-            <h1>IC "Repair Design Project"</h1>
-          </section>
-          <nav class="nav__wrapper-1">
-            <ul>
-              <li> <a href="#"> HOME </a> </li>
-              <li> <a href="#"> PROJECTS </a> </li>
-              <li> <a href="#"> MEASUREMENT </a> </li>
-              <li> <a href="#"> TEAM </a> </li>
-              <li> <a href="#"> REVIEWS </a> </li>
-              <li> <a href="#"> CONTACTS </a> </li>
-            </ul>
-          </nav>
-          <section class="section__col">
-            <a class="phone" href="tel:+79287683239" target="_blank">+7 (928) 768-32-39</a>
-          </section>
-          <button class="button button-header-footer">Request a call</button>
-        </section>
-      </section>
+    <div class="container">
+      <div class="section__row header-footer__one">
+        <div class="section__col logo">
+          <h1>IC "Repair Design Project"</h1>
+        </div>
+        <nav class="nav__wrapper-1">
+          <ul>
+            <li> <a href="#"> HOME </a> </li>
+            <li> <a href="#"> PROJECTS </a> </li>
+            <li> <a href="#"> MEASUREMENT </a> </li>
+            <li> <a href="#"> TEAM </a> </li>
+            <li> <a href="#"> REVIEWS </a> </li>
+            <li> <a href="#"> CONTACTS </a> </li>
+          </ul>
+        </nav>
+        <div class="section__col">
+          <a class="phone" href="tel:+79287683239" target="_blank">+7 (928) 768-32-39</a>
+        </div>
+        <button class="button button-header-footer">Request a call</button>
+      </div>
+    </div>
   </footer>
 
 </body>

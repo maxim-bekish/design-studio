@@ -14,7 +14,7 @@
   font-family: "Yeseva One";
   font-size: 27px;
   text-transform: uppercase;
-  color: #e3b873;
+  color: var(--colorOrange);
   padding-bottom: 37px;
 }
 
@@ -33,24 +33,31 @@
   color: #ffffff;
 }
 .wrapper-6__list-menu > ul > li > a:hover {
-  color: #e3b873;
+  color: var(--colorOrange);
   text-decoration: underline;
 }
-
+.wrapper__img-100{
+max-width: 100%;
+}
 .wrapper-6__section__row {
   display: flex;
   justify-content: space-between;
 }
 .wrapper-6__section_col__right {
   display: flex;
+  align-items: center;
+}
+.wrapper-6__section_col__right>img{
+max-width: 100%;
 }
 .wrapper-6__section_col__right > .right {
-  width: 354px;
+  max-width: 354px;
+  margin-top: -190px;
   margin-left: 43px;
 }
 
 .wrapper-6__section_col__right > .left {
-  width: 354px;
+  max-width: 354px;
 }
 .mobi-title {
   display: none;
@@ -61,9 +68,9 @@
 .left > img:nth-child(2) {
   margin-top: 39px;
 }
-.right > img:first-of-type {
+/* .right > img:first-of-type {
   margin-top: -112px;
-}
+} */
 .right > img:nth-child(2) {
   margin-top: 37px;
 }
@@ -121,7 +128,7 @@
     font-family: "Yeseva One";
     font-size: 27px;
     text-transform: uppercase;
-    color: #e3b873;
+    color: var(--colorOrange);
     padding-bottom: 37px;
   }
 }

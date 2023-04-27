@@ -3,7 +3,7 @@
   margin: -243px auto -100px auto;
   background-color: black;
   color: #ffffff;
-  width: 883px;
+  max-width: 883px;
   height: 445px;
 }
 
@@ -24,12 +24,7 @@
   padding: 50px 0 34px 0;
 }
 
-.wrapper-8__input_okno {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-}
+
 
 .wrapper-8__section__col_modal_okno > .title > h4 {
   padding: 34px 0 45px 0;
@@ -76,6 +71,7 @@
 .label > .wrapper-8__text {
   color: white;
 }
+
 @media (max-width: 768px) {
   .wrapper-8 {
     background-color: #181818;
@@ -84,10 +80,10 @@
     display: none;
   }
   .wrapper-8__section__col_modal_okno {
-    max-width: 100%;
+  
     margin: 0 auto;
     background: #181818;
-    /* padding: 230px 0 0 0 ; */
+    
   }
 
   .name-phone-question {
@@ -112,13 +108,13 @@
   .wrapper-8__input__button {
     width: 100%;
   }
-  .wrapper-8__input_okno>.input{
+  .wrapper-all>.input{
       background: #181818;
   }
-  .wrapper-8__input_okno>.input::placeholder{
+  .wrapper-all>.input::placeholder{
       background: #181818;
   }
-  .wrapper-8__input_okno {
+  .wrapper-all {
     max-width: 100%;
    
   }

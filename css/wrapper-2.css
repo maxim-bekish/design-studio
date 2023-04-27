@@ -10,7 +10,13 @@
   padding: 107px 33px 45px 33px;
 }
 
-
+.section_left {
+  max-width: 520px;
+}
+.section-right {
+  min-width: 456px;
+  max-width: 680px;
+}
 .section__row__up > ul {
   display: flex;
   flex-direction: row;
@@ -28,8 +34,8 @@
   font-family: "Yeseva One";
 }
 .section__row__up > ul > li > a:hover {
-  color: #e3b873;
-  border-bottom: #e3b873 1px solid;
+  color: var(--colorOrange);
+  border-bottom: var(--colorOrange) 1px solid;
 }
 .section__row__down {
   padding: 0 33px;
@@ -42,7 +48,7 @@
   font-size: 27px;
   line-height: 37.42px;
   text-transform: uppercase;
-  color: #e3b873;
+  color: var(--colorOrange);
   margin-bottom: 34px;
 }
 .section_left__title > p {
@@ -56,7 +62,7 @@
   font-size: 18px;
   line-height: 24.95px;
   text-transform: uppercase;
-  color: #e3b873;
+  color: var(--colorOrange);
 }
 .grid__info > span {
   font-size: 13px;
@@ -115,8 +121,7 @@
 }
 .camera > .line {
   width: 32px;
-  border: #e3b873 solid 1px;
- 
+  border: var(--colorOrange) solid 1px;
 }
 
 .camera {
@@ -125,6 +130,9 @@
 }
 .camera > SVG {
   margin: 0 8px;
+}
+.img2 {
+  max-width: 100%;
 }
 .wrapper-2_titel_camera > .titel {
   font-family: "Yeseva One";
@@ -139,7 +147,8 @@
 @media (max-width: 768px) {
   .section_left__nav,
   .section-right__down,
-  .section__row__up {
+  .section__row__up,
+  .section-right {
     display: none;
   }
 
@@ -157,7 +166,9 @@
     font-size: 11px;
     line-height: 17px;
   }
-
+.section_left {
+  max-width: 100%;
+}
   .text_2 > h3 {
     font-size: 14px;
     line-height: 19px;
@@ -185,7 +196,7 @@
     width: 36px;
     height: 36px;
     border-radius: 50%;
-    background-color: #e3b873;
+    background-color: var(--colorOrange);
   }
   .wrapper-2_titel_camera > h3 {
     font-size: 22px;
@@ -196,5 +207,4 @@
   .wrapper-2_titel_camera {
     padding: 0px 0px 30px 0px;
   }
-  
 }

@@ -18,7 +18,7 @@
 .wrapper-9__content > div>h3 {
   text-align: center;
   font-family: "Yeseva One";
-  color: #e3b873;
+  color: var(--colorOrange);
   font-size: 20px;
   text-transform: uppercase;
   line-height: 27.72px;
@@ -27,7 +27,7 @@
  display: inline;
  text-decoration: none;
   font-family: "Yeseva One";
-  color: #e3b873;
+  color: var(--colorOrange);
   font-size: 20px;
   text-transform: uppercase;
   line-height: 27.72px;
@@ -39,7 +39,10 @@
 .mobi__wrapper-9__icon{
   display: none;
 }
-@media (max-width:768px) {
+.mobi-maps{
+max-width: 100%;
+}
+@media (max-width: 768px) {
   .wrapper-9__icon{
     display: none;
   }
@@ -63,8 +66,6 @@
 .wrapper-9__color{
   background: #181818;
 }
-.mobi-maps{
-  max-width: 100%;
-}
+
 
 }
