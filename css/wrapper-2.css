@@ -13,10 +13,10 @@
 .section_left {
   max-width: 520px;
 }
-.section-right {
+/* .section-right {
   min-width: 456px;
   max-width: 680px;
-}
+} */
 .section__row__up > ul {
   display: flex;
   flex-direction: row;

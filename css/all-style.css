@@ -72,3 +72,14 @@ max-width: 100%;
   --colorWhite: rgba(255, 255, 255, 1);
   --colorBlackTwo: rgba(24, 24, 24, 1);
 }
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+
+}
+
+.sliderLine {
+  display: flex;
+  transition: all ease 1s;
+}
