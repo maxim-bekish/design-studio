@@ -1,5 +1,6 @@
 let img = document.querySelectorAll(".sliderLine img");
 let sliderLine = document.querySelector(".sliderLine");
+let tchk = document.querySelectorAll(".all__tchk .tchk");
 let count = 0;
 let width;
 function init() {
@@ -15,7 +16,9 @@ window.addEventListener("resize", init);
 init();
 document.querySelector(".button-next").addEventListener("click", function () {
   count++;
-  console.log(count);
+
+
+  console.log(img[1]);
   if (count >= img.length) {
     count = 0;
   }
@@ -32,6 +35,16 @@ document
     }
     stepSlider();
   });
+
+
 function stepSlider() {
   sliderLine.style.transform = `translate(-${count * width}px)`;
+}
+
+
+
+function dot(){
+
+      console.log(tchk);
+   
 }
