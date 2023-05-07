@@ -186,16 +186,19 @@
   .wrapper-2__mobi-photo {
     display: flex;
     align-items: center;
-    aspect-ratio: 16 / 9;
-    width: 100%;
-    justify-content: space-between;
+    /* position: relative; */
     margin: 0 0 36px 0;
-    background: url(../images/img14.png) 0 0 /100% 100% no-repeat;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+  .wrapper-2__mobi-photo img {
+    width: 100%;
   }
 
   .arrow-mobi {
     display: flex;
-    margin: 0 13px;
+    position: absolute;
     align-items: center;
     justify-content: center;
     width: 36px;
@@ -203,6 +206,14 @@
     border-radius: 50%;
     background-color: var(--colorOrange);
   }
+
+  .button-previous {
+    left: 10px;
+  }
+  .button-next {
+    right: 10px;
+  }
+
   .wrapper-2_titel_camera > h3 {
     font-size: 22px;
     line-height: 30;
