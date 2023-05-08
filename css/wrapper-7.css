@@ -12,7 +12,6 @@
 }
 .wrapper-7__section-row > p {
   margin-top: 24px;
-  /* font-family: "Nunito Sans"; */
   font-size: 18px;
   line-height: 29.46px;
   color: #363636;
@@ -54,10 +53,8 @@
 .wrapper-7__box > .title {
   display: flex;
   align-items: center;
-  /* margin: 24px 0 22px 20px; */
 }
 .wrapper-7__box__down {
-  /* margin-top: 63px; */
       margin-bottom: -44px;
   display: flex;
   max-width: 294px;

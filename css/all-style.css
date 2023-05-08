@@ -79,7 +79,7 @@ max-width: 100%;
 
 }
 
-.sliderLine, .sliderLine-mobi {
+.sliderLine,.sliderLine-mobi {
   display: flex;
   transition: all ease 1s;
 }
