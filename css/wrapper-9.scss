@@ -1,0 +1,121 @@
+.wrapper-8__section__col_modal_okno {
+  position: relative;
+  margin: -243px auto -100px auto;
+  background-color: var(--colorBlack);
+  color: var(--colorWhite);
+  max-width: 883px;
+  height: 445px;
+}
+
+.wrapper-8__input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button__wrapper-8 {
+  font-style: normal;
+  font-size: 13px;
+  width: 250px;
+}
+.wrapper-8__input__button {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 50px 0 34px 0;
+}
+
+
+
+.wrapper-8__section__col_modal_okno > .title > h4 {
+  padding: 34px 0 45px 0;
+  font-family: "Yeseva One";
+  font-size: 20px;
+  line-height: 27.7px;
+  color: var(--colorWhite);
+}
+.wrapper-8__section__col_modal_okno > .title {
+  text-align: center;
+  text-transform: uppercase;
+}
+.name-phone-question {
+  display: flex;
+  flex-direction: column;
+}
+.name-phone {
+  display: flex;
+  justify-content: space-between;
+}
+.name-phone,
+.name-phone-question {
+  padding-bottom: 47px;
+  width: 520px;
+}
+.name-phone > div {
+  width: 231px;
+}
+.wrapper-8__svg_fon {
+  opacity: 5%;
+  position: relative;
+  z-index: -2;
+  display: flex;
+}
+.wrapper-8__svg_fon > svg {
+  width: 100%;
+  margin: 0 -10px 0 0;
+}
+
+.wrapper-8__check-mark {
+  margin: 0px 0 0px 0;
+}
+
+.label > .wrapper-8__text {
+  color: var(--colorWhite);
+}
+
+@media (max-width: 768px) {
+  .wrapper-8 {
+    background-color: var(--colorBlackTwo);
+  }
+  .wrapper-8__svg_fon {
+    display: none;
+  }
+  .wrapper-8__section__col_modal_okno {
+  
+    margin: 0 auto;
+    background: var(--colorBlackTwo);
+    
+  }
+
+  .name-phone-question {
+    width: 100%;
+  }
+  .name-phone {
+    width: 100%;
+    flex-direction: column;
+  }
+  .name-phone > div {
+    width: 100%;
+  }
+  .name-phone > .wrapper-8__input__phone {
+    padding-top: 47px;
+  }
+  .mobi_check-mark {
+    display: flex;
+  }
+  .button__wrapper-8 {
+    width: 100%;
+  }
+  .wrapper-8__input__button {
+    width: 100%;
+  }
+  .wrapper-all>.input{
+      background: var(--colorBlackTwo);
+  }
+  .wrapper-all>.input::placeholder{
+      background: var(--colorBlackTwo);
+  }
+  .wrapper-all {
+    max-width: 100%;
+
+  }
+}

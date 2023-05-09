@@ -73,13 +73,3 @@ max-width: 100%;
   --colorBlackTwo: rgba(24, 24, 24, 1);
 }
 
-.slider {
-  width: 100%;
-  overflow: hidden;
-
-}
-
-.sliderLine,.sliderLine-mobi {
-  display: flex;
-  transition: all ease 1s;
-}

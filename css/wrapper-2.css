@@ -156,6 +156,18 @@
   line-height: 27.72px;
   text-transform: uppercase;
 }
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+
+}
+
+.sliderLine,.sliderLine-mobi {
+  display: flex;
+  transition: all ease 1s;
+}
+
 .svg-mobi-previous,
 .svg-mobi-next {
   display: none;
