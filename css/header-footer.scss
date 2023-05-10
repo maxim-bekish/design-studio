@@ -1,4 +1,4 @@
-@import "all-style1";
+
 header,
 footer {
   margin: 0 auto;
@@ -50,6 +50,9 @@ nav > ul {
   min-width: 600px;
 }
 @media (max-width: 768px) {
+
+
+
   .header-footer__one {
     background-color: $colorBlackTwo;
     .button {
@@ -57,16 +60,14 @@ nav > ul {
     }
   }
 
-  .nav__wrapper-1 {
+  .nav__wrapper-1, .footer {
     display: none;
   }
-  .section__col > .phone {
+  .phone {
     color: $colorWhite;
     text-decoration: none;
   }
-  .footer {
-    display: none;
-  }
+
 }
 @media (max-width: 1000px) {
   .nav__wrapper-1 {

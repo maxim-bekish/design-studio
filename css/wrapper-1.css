@@ -41,7 +41,11 @@ h2 > span {
   height: 100%;
 }
 
-
+/* .wrapper-2 {
+  background: var(--colorBlack);
+  z-index: -1;
+  color: var(--colorWhite);
+} */
 
 .section__roww {
   padding: 200px 0px 200px 33px;
@@ -65,12 +69,12 @@ h2 > span {
   .button-wrapper-1:last-child {
     display: none;
   }
-  .mobi-button-wrapper-1 {
+  /* .mobi-button-wrapper-1 {
     display: block;
     border: 1px solid var(--colorWhite);
     background: rgba(0, 0, 0, 0);
     margin-left: 20px;
-  }
+  } */
 
   .wrapper-1__content > h2 {
     font-size: 23px;

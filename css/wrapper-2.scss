@@ -1,4 +1,4 @@
-@import "all-style1";
+
 .wrapper-2 {
   background: $colorBlack;
   z-index: -1;
@@ -191,7 +191,8 @@
       }
 
       .section_left__info {
-        grid-row-gap: 0px h3 {
+        grid-row-gap: 0px ;
+        h3 {
           font-size: 14px;
           line-height: 19px;
         }
