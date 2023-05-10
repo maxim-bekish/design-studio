@@ -1,67 +1,75 @@
-@import 'all-style';
-header, footer {
-	margin: 0 auto;
-	background-color: $colorBlack;
+@import "all-style1";
+header,
+footer {
+  margin: 0 auto;
+  background-color: $colorBlack;
 }
 h1 {
-	font-size: 11px;
-	line-height: 15px;
-	text-transform: uppercase;
-	color: $colorOrange;
+  font-size: 11px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: $colorOrange;
 }
 .header-footer__one {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	background-color: $colorBlack;
-	padding: 22px 0;
-	> .button {
-		display: none;
-	}
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $colorBlack;
+  padding: 22px 0;
+  > .button {
+    max-width: 161px;
+  }
 }
 nav > ul {
-	display: flex;
-	justify-content: space-around;
-	> li {
-		list-style-type: none;
-		> a {
-			color: $colorWhite;
-			font-size: 11px;
-			line-height: 15px;
-			text-decoration: none;
-			&:hover {
-				color: $colorOrange;
-			}
-		}
-	}
+  display: flex;
+  justify-content: space-around;
+  > li {
+    list-style-type: none;
+    > a {
+      color: $colorWhite;
+      font-size: 11px;
+      line-height: 15px;
+      text-decoration: none;
+      &:hover {
+        color: $colorOrange;
+      }
+    }
+  }
 }
 .phone {
-	font-size: 11px;
-	line-height: 15px;
-	text-align: right;
-	text-decoration-line: underline;
-	color: $colorOrange;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: right;
+  text-decoration-line: underline;
+  color: $colorOrange;
 }
 .button-header-footer {
-	max-width: 161px;
+  max-width: 161px;
 }
 .nav__wrapper-1 {
-	min-width: 600px;
+  min-width: 600px;
 }
 @media (max-width: 768px) {
-	background-color: $colorBlackTwo;
-}
-.nav__wrapper-1 {
-	display: none;
-}
-.section__col > .phone {
-	color: $colorWhite;
-	text-decoration: none;
-}
-.footer {
-	display: none;
+  .header-footer__one {
+    background-color: $colorBlackTwo;
+    .button {
+      display: none;
+    }
+  }
+
+  .nav__wrapper-1 {
+    display: none;
+  }
+  .section__col > .phone {
+    color: $colorWhite;
+    text-decoration: none;
+  }
+  .footer {
+    display: none;
+  }
 }
 @media (max-width: 1000px) {
-	min-width: 400px;
+  .nav__wrapper-1 {
+    min-width: 400px;
+  }
 }
-

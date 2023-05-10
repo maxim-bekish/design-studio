@@ -35,8 +35,8 @@
 .section__row__up > ul > li:hover {
   color: var(--colorOrange);
   border-bottom: var(--colorOrange) 1px solid;
-}
-.section__row__down {
+} 
+ .section__row__down {
   padding: 35px 0 0 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -84,7 +84,6 @@
 }
 .section_left__info {
   grid-area: 3 / 1 / 4 / 2;
-
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -110,8 +109,8 @@
   height: 9.5px;
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 50%;
-}
-.tchk-activ {
+} 
+ .tchk-activ {
   background-color: var(--colorWhite);
 }
 .button-next,
@@ -141,39 +140,39 @@
   border: var(--colorOrange) solid 1px;
 }
 
-.camera {
+ .camera {
   margin: 15px 0;
   display: flex;
   align-items: center;
-}
-.camera > SVG {
+} 
+ .camera > SVG {
   margin: 0 8px;
-}
+} 
 
-.wrapper-2_titel_camera > .titel {
+ .wrapper-2_titel_camera > .titel {
   font-family: "Yeseva One";
   font-size: 20px;
   line-height: 27.72px;
   text-transform: uppercase;
-}
+} 
 
-.slider {
+ .slider {
   width: 100%;
   overflow: hidden;
+} 
 
-}
-
-.sliderLine,.sliderLine-mobi {
+ .sliderLine,
+.sliderLine-mobi {
   display: flex;
   transition: all ease 1s;
-}
+} 
 
-.svg-mobi-previous,
+ .svg-mobi-previous,
 .svg-mobi-next {
   display: none;
-}
+} 
 @media (max-width: 768px) {
-  .section__row__up,
+   .section__row__up,
   .all__tchk,
   .svg-desctop-previous,
   .svg-desctop-next {
@@ -182,7 +181,7 @@
   .svg-mobi-previous,
   .svg-mobi-next {
     display: block;
-  }
+  } 
   .button-previous,
   .button-next {
     display: flex;
