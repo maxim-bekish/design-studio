@@ -74,6 +74,11 @@
 .mobi-gradient {
   display: none;
 }
+
+
+
+
+
 @media (max-width: 768px) {
   .wrapper-6__list-menu {
     display: none;
