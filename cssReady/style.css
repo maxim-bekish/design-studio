@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   font-family: "Nunito Sans";
   font-weight: 400;
@@ -512,6 +513,186 @@ nav > ul > li > a:hover {
     font-size: 22px;
     line-height: 30;
     margin: 50px 19px 0;
+  }
+}
+.wrapper-3__all {
+  max-width: 818px;
+  margin: -226px auto 0 auto;
+  height: 434px;
+}
+.wrapper-3__all .wrapper-3__video_photo {
+  background: url(../images/img3.png) 0 0/100% 100% no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.wrapper-3__all .wrapper-3__video_photo .wrapper-3__fon {
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.wrapper-3__input {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 91.5px;
+}
+.wrapper-3__input .span_wrapper-3 {
+  color: rgba(54, 54, 54, 0.5) !important;
+}
+.wrapper-3__input .wrapper-3__input__phone {
+  margin-right: 49px;
+  margin-left: 58px;
+}
+.wrapper-3__input .input__wrapper-3 {
+  background-color: rgb(255, 255, 255) !important;
+  border-bottom: 1px solid rgba(54, 54, 54, 0.3) !important;
+  color: rgb(0, 0, 0) !important;
+}
+.wrapper-3__input .input__wrapper-3::placeholder {
+  background-color: rgb(255, 255, 255) !important;
+  color: #363636 !important;
+}
+.wrapper-3__input .input__wrapper-3:focus {
+  background-color: rgb(255, 255, 255) !important;
+  color: rgb(0, 0, 0) !important;
+}
+.wrapper-3__input .button__wrapper-3 {
+  font-size: 13px;
+  font-style: normal;
+}
+
+.wrapper-3__line {
+  display: flex;
+  margin: 62px auto 34px auto;
+  width: 55px;
+  height: 1.5px;
+  background-color: rgb(227, 184, 115);
+}
+
+.wrapper-3__text {
+  margin: 0 auto;
+  width: 681px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 36.83px;
+  color: #363636;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.label .text {
+  margin-left: 8.5px;
+  font-size: 14px;
+  line-height: 22.92px;
+  color: rgb(24, 24, 24);
+}
+.label .checkbox {
+  display: none;
+}
+.label .fake {
+  display: inline-flex;
+  width: 18px;
+  height: 18px;
+  background: rgb(227, 184, 115);
+  color: rgb(255, 255, 255);
+  justify-content: center;
+  align-items: center;
+}
+.label .fake::before {
+  content: "✔";
+  opacity: 0;
+  transition: 0.2s;
+}
+.label .checkbox:checked + .fake::before {
+  opacity: 1;
+}
+
+.check-mark {
+  display: flex;
+  justify-content: center;
+  margin: 35px 0 147px 0;
+}
+
+.check-mark-mobi {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .wrapper-3 {
+    background: rgb(24, 24, 24);
+  }
+  .wrapper-3 .wrapper-3__all {
+    width: 100%;
+    aspect-ratio: 16/9;
+    height: 100%;
+    margin: 0;
+  }
+  .wrapper-3 .wrapper-3__all .play {
+    display: flex;
+  }
+  .wrapper-3 .wrapper-3__all .play svg {
+    width: 70px;
+    height: 70px;
+  }
+  .wrapper-3 .wrapper-3__line {
+    margin: 28px auto 25px auto;
+  }
+  .wrapper-3 .wrapper-3__text {
+    width: 100%;
+    font-size: 11px;
+    line-height: 18px;
+    color: rgb(255, 255, 255);
+  }
+  .wrapper-3 .wrapper-3__input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .wrapper-3 .wrapper-3__input .wrapper-3__input__name {
+    margin-bottom: 47px;
+    width: 100%;
+  }
+  .wrapper-3 .wrapper-3__input .wrapper-3__input__phone {
+    margin: 0;
+    width: 100%;
+  }
+  .wrapper-3 .wrapper-3__input .span_wrapper-3 {
+    color: rgba(255, 255, 255, 0.5) !important;
+  }
+  .wrapper-3 .wrapper-3__input .input__wrapper-3 {
+    background-color: rgb(24, 24, 24) !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5) !important;
+    color: rgb(255, 255, 255) !important;
+  }
+  .wrapper-3 .wrapper-3__input .input__wrapper-3::placeholder {
+    background-color: rgb(24, 24, 24) !important;
+    color: rgb(255, 255, 255) !important;
+  }
+  .wrapper-3 .wrapper-3__input .input__wrapper-3:focus {
+    background-color: rgb(24, 24, 24) !important;
+    color: rgb(255, 255, 255) !important;
+  }
+  .wrapper-3 .wrapper-3__input .button__wrapper-3 {
+    max-width: 767px;
+    width: 100%;
+    margin-bottom: -26px;
+  }
+  .label > .text {
+    color: rgb(255, 255, 255);
+  }
+  .check-mark {
+    display: none;
+  }
+  .check-mark-mobi {
+    display: block;
+    margin: 26px 0 62px 0;
   }
 }
 

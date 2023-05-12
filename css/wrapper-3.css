@@ -135,10 +135,10 @@
     color: var(--colorWhite);
   }
   .wrapper-3__input__name {
-    margin-bottom: 47px ;
+    margin-bottom: 47px;
     width: 100%;
   }
- 
+
   .span_wrapper-3 {
     color: rgba(255, 255, 255, 0.5) !important;
   }
