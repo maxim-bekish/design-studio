@@ -1,0 +1,105 @@
+.wrapper-5 {
+  background: url(../images/img7.png) no-repeat;
+
+  .wrapper-5__section__row {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 200px;
+
+    .all_mini_wrapper-5 {
+      padding: 100px 0 0 0;
+      height: 473px;
+      max-width: 374px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      .mini-wrapper-5 {
+        display: flex;
+        align-items: center;
+
+        .marker {
+          width: 88px;
+          height: 88px;
+          margin-right: 16px;
+          position: relative;
+        }
+        span {
+          font-family: "Yeseva One";
+          position: absolute;
+          color: $colorWhite;
+          line-height: 24.95px;
+          font-size: 18px;
+          top: 26px;
+          left: 33px;
+        }
+      }
+    }
+  }
+}
+
+.section__col_modal_okno {
+  margin: 106px 0 36px 0;
+  background-color: $colorBlack;
+  color: $colorWhite;
+  width: 506px;
+  height: 509px;
+
+  .title {
+    text-align: center;
+    margin: 28px 0 39px 0;
+
+    h4 {
+      padding-top: 28px;
+      font-size: 18px;
+      line-height: 25.78px;
+    }
+  }
+  .wrapper-5__input {
+    display: flex;
+    flex-direction: column;
+    margin: 39px 49px 19px 49px;
+
+    .button__wrapper-5__input {
+      display: flex;
+      flex-direction: row-reverse;
+
+      .button__wrapper-5 {
+        font-style: normal;
+        font-size: 13px;
+      }
+    }
+    .wrapper-5__input__phone {
+      margin: 48px 0;
+    }
+
+    .wrapper-5__heck-mark {
+      justify-content: flex-start;
+      margin: 17px 0 39px 0;
+
+      .wrapper-5__text {
+        color: $colorWhite;
+      }
+    }
+  }
+
+  .section__sale {
+    display: flex;
+    align-items: center;
+    p {
+      margin: 0 0 0 25px;
+      font-size: 18px;
+      line-height: 25.78px;
+      color: $colorOrange;
+    }
+    div {
+      width: 92px;
+      height: 92px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper-5 {
+    display: none;
+  }
+}

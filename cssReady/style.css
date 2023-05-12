@@ -6,6 +6,12 @@
   margin: 0;
 }
 
+.span_all {
+  font-size: 13px;
+  line-height: 21.28px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
 .container {
   max-width: 1263px;
   padding: 0 18px;
@@ -791,6 +797,101 @@ nav > ul > li > a:hover {
 @media (max-width: 970px) {
   .section__col__text {
     margin: -67px 0px 0 30px;
+  }
+}
+.wrapper-5 {
+  background: url(../images/img7.png) no-repeat;
+}
+.wrapper-5 .wrapper-5__section__row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 200px;
+}
+.wrapper-5 .wrapper-5__section__row .all_mini_wrapper-5 {
+  padding: 100px 0 0 0;
+  height: 473px;
+  max-width: 374px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.wrapper-5 .wrapper-5__section__row .all_mini_wrapper-5 .mini-wrapper-5 {
+  display: flex;
+  align-items: center;
+}
+.wrapper-5 .wrapper-5__section__row .all_mini_wrapper-5 .mini-wrapper-5 .marker {
+  width: 88px;
+  height: 88px;
+  margin-right: 16px;
+  position: relative;
+}
+.wrapper-5 .wrapper-5__section__row .all_mini_wrapper-5 .mini-wrapper-5 span {
+  font-family: "Yeseva One";
+  position: absolute;
+  color: rgb(255, 255, 255);
+  line-height: 24.95px;
+  font-size: 18px;
+  top: 26px;
+  left: 33px;
+}
+
+.section__col_modal_okno {
+  margin: 106px 0 36px 0;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  width: 506px;
+  height: 509px;
+}
+.section__col_modal_okno .title {
+  text-align: center;
+  margin: 28px 0 39px 0;
+}
+.section__col_modal_okno .title h4 {
+  padding-top: 28px;
+  font-size: 18px;
+  line-height: 25.78px;
+}
+.section__col_modal_okno .wrapper-5__input {
+  display: flex;
+  flex-direction: column;
+  margin: 39px 49px 19px 49px;
+}
+.section__col_modal_okno .wrapper-5__input .button__wrapper-5__input {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.section__col_modal_okno .wrapper-5__input .button__wrapper-5__input .button__wrapper-5 {
+  font-style: normal;
+  font-size: 13px;
+}
+.section__col_modal_okno .wrapper-5__input .wrapper-5__input__phone {
+  margin: 48px 0;
+}
+.section__col_modal_okno .wrapper-5__input .wrapper-5__heck-mark {
+  justify-content: flex-start;
+  margin: 17px 0 39px 0;
+}
+.section__col_modal_okno .wrapper-5__input .wrapper-5__heck-mark .wrapper-5__text {
+  color: rgb(255, 255, 255);
+}
+.section__col_modal_okno .section__sale {
+  display: flex;
+  align-items: center;
+}
+.section__col_modal_okno .section__sale p {
+  margin: 0 0 0 25px;
+  font-size: 18px;
+  line-height: 25.78px;
+  color: rgb(227, 184, 115);
+}
+.section__col_modal_okno .section__sale div {
+  width: 92px;
+  height: 92px;
+}
+
+@media (max-width: 768px) {
+  .wrapper-5 {
+    display: none;
   }
 }
 
