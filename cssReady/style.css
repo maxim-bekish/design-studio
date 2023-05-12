@@ -695,5 +695,103 @@ nav > ul > li > a:hover {
     margin: 26px 0 62px 0;
   }
 }
+.wrapper-4 {
+  margin-bottom: 124px;
+}
+.wrapper-4 .section__row__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.wrapper-4 .section__row__title h3 {
+  font-family: "Yeseva One";
+  font-size: 20px;
+  line-height: 27.72px;
+  color: rgb(24, 24, 24);
+}
+.wrapper-4 .section__row__img {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.wrapper-4 .section__row__img .section__col__text {
+  z-index: 2;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  margin: -127px 0px 0 30px;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+  padding: 25px 0 20px 30px;
+}
+.wrapper-4 .section__row__img .section__col__text h3 {
+  color: #363636;
+  font-family: "Yeseva One";
+  font-size: 18px;
+  line-height: 24.95px;
+}
+.wrapper-4 .section__row__img .section__col__text ul {
+  margin: 13px 0 10px 0;
+}
+.wrapper-4 .section__row__img .section__col__text ul li {
+  color: #959595;
+  list-style-position: inside;
+  font-size: 13px;
+  line-height: 26.6px;
+}
+.wrapper-4 .section__row__img div {
+  max-width: 392px;
+  max-height: 421px;
+}
+.wrapper-4 .wrapper_4__price {
+  position: relative;
+  margin: -25px 0 0 30px;
+  z-index: 3;
+  max-width: 228px;
+  height: 54px;
+  background-color: rgb(227, 184, 115);
+  display: flex;
+  justify-content: center;
+  box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+}
+.wrapper-4 .wrapper_4__price span {
+  font-family: "Yeseva One";
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  line-height: 24.95px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .wrapper-4 {
+    margin-bottom: 270px;
+  }
+  .wrapper-4 .section__row__title {
+    margin-top: 83px;
+  }
+  .wrapper-4 .section__row__img {
+    flex-direction: column;
+    align-items: center;
+  }
+  .wrapper-4 .section__row__img .section__col__text {
+    margin-left: 0;
+    max-width: 290px;
+  }
+  .wrapper-4 .section__row__img > div:nth-child(2) {
+    margin: 270px 0;
+    max-width: 100%;
+  }
+  .wrapper-4 .section__row__img > div > img {
+    max-width: 100%;
+  }
+}
+@media (max-width: 970px) {
+  .section__col__text {
+    margin: -67px 0px 0 30px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
