@@ -62,12 +62,13 @@
       flex-direction: row-reverse;
       padding: 50px 0 34px 0;
 
+    }
+    
       .button__wrapper-8 {
         font-style: normal;
         font-size: 13px;
         width: 250px;
       }
-    }
   }
 }
 
@@ -104,5 +105,8 @@
         display: flex;
       }
     }
+     .wrapper-8__input{
+    align-items: start;
+     }
   }
 }

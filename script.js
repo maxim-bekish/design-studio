@@ -1,7 +1,7 @@
 let img = document.querySelectorAll(".sliderLine img");
 let sliderLine = document.querySelector(".sliderLine");
 let dots = document.querySelectorAll(".all__tchk .tchk");
-let title_a = document.querySelectorAll(".__up li");
+let title_a = document.querySelectorAll(".section__row__up li");
 let grid_info = document.querySelectorAll(".grid__info");
 
 let count = 0;

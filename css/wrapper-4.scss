@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 14px;
     h3 {
       font-family: "Yeseva One";
       font-size: 20px;
@@ -15,6 +16,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
+    gap: 10px;
 
     .section__col__text {
       z-index: 2;
@@ -30,12 +32,13 @@
       h3 {
         color: #363636;
         font-family: "Yeseva One";
-
         font-size: 18px;
         line-height: 24.95px;
       }
 
-      ul {
+   
+    }
+   ul {
         margin: 13px 0 10px 0;
         li {
           color: #959595;
@@ -44,12 +47,7 @@
           line-height: 26.6px;
         }
       }
-    }
-
-    div {
-      max-width: 392px;
-      max-height: 421px;
-    }
+  
   }
 
   .wrapper_4__price {
@@ -83,18 +81,16 @@
     .section__row__img {
       flex-direction: column;
       align-items: center;
+      gap: 45px;
       .section__col__text {
-        margin-left: 0;
-        max-width: 290px;
-      }
-    }
-    .section__row__img > div:nth-child(2) {
-      margin: 270px 0;
-      max-width: 100%;
-    }
 
-    .section__row__img > div > img {
-      max-width: 100%;
+        max-width: 290px;
+              margin: -100px 0 0 0;
+        li{
+          line-height: 22px;
+        }
+      }
+   
     }
   }
 }

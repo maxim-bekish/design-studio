@@ -1,0 +1,77 @@
+.wrapper-9 {
+  background: url(../images/img13.png) 0 0 / 100% 100% no-repeat;
+}
+.wrapper-9__color {
+  background: linear-gradient(
+    rgba(24, 24, 24) 3.47%,
+    rgba(24, 24, 24, 0.9) 100%
+  );
+
+  .wrapper-9__content {
+    margin: -203px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 273px 0 65px 0;
+  img{
+    margin-top: 45px;
+  }
+ 
+      a {
+        text-decoration: none;
+      }
+    
+
+    h3 {
+      text-align: center;
+      font-family: "Yeseva One";
+      color: $colorOrange;
+      font-size: 20px;
+      text-transform: uppercase;
+      line-height: 27.72px;
+      a {
+        display: inline;
+        text-decoration: none;
+        font-family: "Yeseva One";
+        color: $colorOrange;
+        font-size: 20px;
+        text-transform: uppercase;
+        line-height: 27.72px;
+      }
+    }
+  }
+}
+.mobi__wrapper-9__icon {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .wrapper-9__color {
+    background: $colorBlackTwo;
+
+    .wrapper-9__content {
+      flex-direction: column-reverse;
+
+      .wrapper-9__content > img {
+        margin: 50px 0;
+        max-width: 100%;
+        max-height: 100%;
+      }
+    }
+    .mobi__wrapper-9__icon {
+      display: flex;
+      a:last-child {
+        margin-left: 20px;
+      }
+      svg {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+
+  .wrapper-9__icon {
+    display: none;
+  }
+}
