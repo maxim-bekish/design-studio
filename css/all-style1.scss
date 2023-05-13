@@ -33,8 +33,6 @@ $colorBlackTwo: rgba(24, 24, 24, 1);
     background-color: $colorBlack;
     line-height: 22.92px;
     color: $colorWhite;
-		
-
   }
   &:focus {
     outline: none;
@@ -118,6 +116,17 @@ $colorBlackTwo: rgba(24, 24, 24, 1);
     &-wrapper-1 {
       margin: 26px 0 0 0;
       width: 100%;
+    }
+  }
+
+  .wrapper-all {
+    max-width: 100%;
+
+    .input {
+      background: $colorBlackTwo;
+      &::placeholder {
+        background: $colorBlackTwo;
+      }
     }
   }
 }

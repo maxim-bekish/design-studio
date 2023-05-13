@@ -118,6 +118,15 @@
     margin: 26px 0 0 0;
     width: 100%;
   }
+  .wrapper-all {
+    max-width: 100%;
+  }
+  .wrapper-all .input {
+    background: rgb(24, 24, 24);
+  }
+  .wrapper-all .input::placeholder {
+    background: rgb(24, 24, 24);
+  }
 }
 header,
 footer {
@@ -1082,6 +1091,17 @@ nav > ul > li > a:hover {
     display: none;
   }
 }
+.wrapper-8__svg_fon {
+  opacity: 5%;
+  position: relative;
+  z-index: -2;
+  display: flex;
+}
+.wrapper-8__svg_fon svg {
+  width: 100%;
+  margin: 0 -10px 0 0;
+}
+
 .wrapper-8__section__col_modal_okno {
   position: relative;
   margin: -243px auto -100px auto;
@@ -1090,119 +1110,84 @@ nav > ul > li > a:hover {
   max-width: 883px;
   height: 445px;
 }
-
-.wrapper-8__input {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.wrapper-8__section__col_modal_okno .title {
+  text-align: center;
+  text-transform: uppercase;
 }
-
-.button__wrapper-8 {
-  font-style: normal;
-  font-size: 13px;
-  width: 250px;
-}
-
-.wrapper-8__input__button {
-  display: flex;
-  flex-direction: row-reverse;
-  padding: 50px 0 34px 0;
-}
-
-.wrapper-8__section__col_modal_okno > .title > h4 {
+.wrapper-8__section__col_modal_okno .title h4 {
   padding: 34px 0 45px 0;
   font-family: "Yeseva One";
   font-size: 20px;
   line-height: 27.7px;
   color: rgb(255, 255, 255);
 }
-
-.wrapper-8__section__col_modal_okno > .title {
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.name-phone-question {
+.wrapper-8__section__col_modal_okno .wrapper-8__input {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
-
-.name-phone {
+.wrapper-8__section__col_modal_okno .wrapper-8__input .name-phone-question {
   display: flex;
-  justify-content: space-between;
-}
-
-.name-phone,
-.name-phone-question {
+  flex-direction: column;
   padding-bottom: 47px;
   width: 520px;
 }
-
-.name-phone > div {
+.wrapper-8__section__col_modal_okno .wrapper-8__input .name-phone-question .name-phone {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 47px;
+  width: 520px;
+}
+.wrapper-8__section__col_modal_okno .wrapper-8__input .name-phone-question .name-phone div {
   width: 231px;
 }
-
-.wrapper-8__svg_fon {
-  opacity: 5%;
-  position: relative;
-  z-index: -2;
-  display: flex;
-}
-
-.wrapper-8__svg_fon > svg {
-  width: 100%;
-  margin: 0 -10px 0 0;
-}
-
-.wrapper-8__check-mark {
+.wrapper-8__section__col_modal_okno .wrapper-8__input .wrapper-8__check-mark {
   margin: 0px 0 0px 0;
 }
-
-.label > .wrapper-8__text {
+.wrapper-8__section__col_modal_okno .wrapper-8__input .wrapper-8__check-mark .wrapper-8__text {
   color: rgb(255, 255, 255);
+}
+.wrapper-8__section__col_modal_okno .wrapper-8__input .wrapper-8__input__button {
+  display: flex;
+  flex-direction: row-reverse;
+  padding: 50px 0 34px 0;
+}
+.wrapper-8__section__col_modal_okno .wrapper-8__input .wrapper-8__input__button .button__wrapper-8 {
+  font-style: normal;
+  font-size: 13px;
+  width: 250px;
 }
 
 @media (max-width: 768px) {
   .wrapper-8 {
     background-color: rgb(24, 24, 24);
   }
-  .wrapper-8__svg_fon {
+  .wrapper-8 .wrapper-8__svg_fon {
     display: none;
   }
-  .wrapper-8__section__col_modal_okno {
+  .wrapper-8 .wrapper-8__section__col_modal_okno {
     margin: 0 auto;
     background: rgb(24, 24, 24);
   }
-  .name-phone-question {
+  .wrapper-8 .wrapper-8__section__col_modal_okno .name-phone-question {
     width: 100%;
   }
-  .name-phone {
+  .wrapper-8 .wrapper-8__section__col_modal_okno .name-phone-question .name-phone {
     width: 100%;
     flex-direction: column;
   }
-  .name-phone > div {
+  .wrapper-8 .wrapper-8__section__col_modal_okno .name-phone-question .name-phone div {
     width: 100%;
   }
-  .name-phone > .wrapper-8__input__phone {
+  .wrapper-8 .wrapper-8__section__col_modal_okno .name-phone-question .name-phone .wrapper-8__input__phone {
     padding-top: 47px;
   }
-  .mobi_check-mark {
+  .wrapper-8 .wrapper-8__section__col_modal_okno .wrapper-8__input__button,
+  .wrapper-8 .wrapper-8__section__col_modal_okno .button__wrapper-8 {
+    width: 100%;
+  }
+  .wrapper-8 .wrapper-8__section__col_modal_okno .mobi_check-mark {
     display: flex;
-  }
-  .button__wrapper-8 {
-    width: 100%;
-  }
-  .wrapper-8__input__button {
-    width: 100%;
-  }
-  .wrapper-all > .input {
-    background: rgb(24, 24, 24);
-  }
-  .wrapper-all > .input::placeholder {
-    background: rgb(24, 24, 24);
-  }
-  .wrapper-all {
-    max-width: 100%;
   }
 }
 
