@@ -1,4 +1,3 @@
-
 .wrapper-2 {
   background: $colorBlack;
   z-index: -1;
@@ -191,7 +190,7 @@
       }
 
       .section_left__info {
-        grid-row-gap: 0px ;
+        grid-row-gap: 0px;
         h3 {
           font-size: 14px;
           line-height: 19px;
@@ -207,17 +206,10 @@
       }
 
       .button-previous,
-      .button-next {
-        display: flex;
+      .button-next,
+      .arrow-mobi {
+       
         position: absolute;
-        z-index: 1;
-        align-items: center;
-        justify-content: center;
-        width: 36px;
-        top: 48%;
-        height: 36px;
-        border-radius: 50%;
-        background-color: $colorOrange;
       }
 
       .button-previous {
@@ -241,6 +233,3 @@
   }
 }
 
-// .section_left {
-//   max-width: 100%;
-// }

@@ -1,5 +1,5 @@
 .wrapper-4 {
-  margin-bottom: 124px;
+  margin-bottom: 80px;
   .section__row__title {
     display: flex;
     flex-direction: column;
@@ -35,19 +35,16 @@
         font-size: 18px;
         line-height: 24.95px;
       }
-
-   
     }
-   ul {
-        margin: 13px 0 10px 0;
-        li {
-          color: #959595;
-          list-style-position: inside;
-          font-size: 13px;
-          line-height: 26.6px;
-        }
+    ul {
+      margin: 13px 0 10px 0;
+      li {
+        color: #959595;
+        list-style-position: inside;
+        font-size: 13px;
+        line-height: 26.6px;
       }
-  
+    }
   }
 
   .wrapper_4__price {
@@ -74,7 +71,6 @@
 
 @media (max-width: 768px) {
   .wrapper-4 {
-    margin-bottom: 270px;
     .section__row__title {
       margin-top: 83px;
     }
@@ -83,14 +79,12 @@
       align-items: center;
       gap: 45px;
       .section__col__text {
-
         max-width: 290px;
-              margin: -100px 0 0 0;
-        li{
+        margin: -100px 0 0 0;
+        li {
           line-height: 22px;
         }
       }
-   
     }
   }
 }

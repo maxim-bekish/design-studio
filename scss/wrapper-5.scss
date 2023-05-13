@@ -4,7 +4,7 @@
   .wrapper-5__section__row {
     display: flex;
     justify-content: space-around;
-    margin-top: 200px;
+
 
     .all_mini_wrapper-5 {
       padding: 100px 0 0 0;
@@ -82,6 +82,8 @@
     }
   }
 
+
+}
   .section__sale {
     display: flex;
     align-items: center;
@@ -96,8 +98,6 @@
       height: 92px;
     }
   }
-}
-
 @media (max-width: 768px) {
   .wrapper-5 {
     display: none;
