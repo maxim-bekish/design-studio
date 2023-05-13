@@ -117,7 +117,7 @@
 }
 .play {
   cursor: pointer;
-  svg:hover{
+  svg:hover {
     stroke: $colorWhite;
   }
 }
@@ -132,13 +132,9 @@
       height: 100%;
       margin: 0;
 
-      .play {
-        // display: flex;
-
-        svg {
-          width: 70px;
-          height: 70px;
-        }
+      svg {
+        width: 70px;
+        height: 70px;
       }
     }
     .wrapper-3__line {
