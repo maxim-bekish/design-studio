@@ -73,6 +73,7 @@ function dot(index) {
 }
 
 function stepSlider() {
+  console.log(width)
   sliderLine.style.transform = `translate(-${count * width}px)`;
 }
 

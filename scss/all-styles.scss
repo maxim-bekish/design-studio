@@ -48,6 +48,17 @@ $colorBlackTwo: rgba(24, 24, 24, 1);
   justify-content: center;
 }
 
+   .slider,.slider-mobil {
+      width: 100%;
+      overflow: hidden;
+      .sliderLine,
+      .sliderLine-mobil {
+        display: flex;
+        transition: all ease 1s;
+      }
+    }
+
+
 .button {
   font-style: italic;
   cursor: pointer;

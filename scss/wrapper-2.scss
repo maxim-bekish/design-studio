@@ -113,15 +113,7 @@
     .section-right {
       grid-area: 2 / 2 / 5 / 3;
     }
-    .slider {
-      width: 100%;
-      overflow: hidden;
-      .sliderLine,
-      .sliderLine-mobi {
-        display: flex;
-        transition: all ease 1s;
-      }
-    }
+ 
   }
   .wrapper-2_titel_camera {
     display: flex;
