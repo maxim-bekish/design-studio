@@ -107,6 +107,20 @@
 .check-mark-mobi {
   display: none;
 }
+.video {
+  display: none;
+  width: 100%;
+  height: 100%;
+  video {
+    width: 100%;
+  }
+}
+.play {
+  cursor: pointer;
+  svg:hover{
+    stroke: $colorWhite;
+  }
+}
 
 @media (max-width: 768px) {
   .wrapper-3 {
@@ -119,7 +133,7 @@
       margin: 0;
 
       .play {
-        display: flex;
+        // display: flex;
 
         svg {
           width: 70px;

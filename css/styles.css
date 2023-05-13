@@ -613,6 +613,22 @@ nav > ul > li > a:hover {
   display: none;
 }
 
+.video {
+  display: none;
+  width: 100%;
+  height: 100%;
+}
+.video video {
+  width: 100%;
+}
+
+.play {
+  cursor: pointer;
+}
+.play svg:hover {
+  stroke: rgb(255, 255, 255);
+}
+
 @media (max-width: 768px) {
   .wrapper-3 {
     background: rgb(24, 24, 24);
@@ -622,9 +638,6 @@ nav > ul > li > a:hover {
     aspect-ratio: 16/9;
     height: 100%;
     margin: 0;
-  }
-  .wrapper-3 .wrapper-3__all .play {
-    display: flex;
   }
   .wrapper-3 .wrapper-3__all .play svg {
     width: 70px;
