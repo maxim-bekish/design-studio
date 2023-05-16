@@ -1,7 +1,7 @@
-let sliderLine_mobil = document.querySelector(".sliderLine-mobil");
-let img_mobil = document.querySelectorAll(".sliderLine-mobil img");
-let button_previous_mobil = document.querySelector(".button-previous-mobil");
-let button_next_mobil = document.querySelector(".button-next-mobil");
+const sliderLine_mobil = document.querySelector(".sliderLine-mobil");
+const img_mobil = document.querySelectorAll(".sliderLine-mobil img");
+const button_previous_mobil = document.querySelector(".button-previous-mobil");
+const button_next_mobil = document.querySelector(".button-next-mobil");
 let width_mobil;
 let count_mobil = 0;
 window.addEventListener("resize", init_mobil);
