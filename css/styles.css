@@ -395,6 +395,9 @@ nav > ul > li > a:hover {
   background-color: rgba(255, 255, 255, 0.3);
   border-radius: 50%;
 }
+.wrapper-2 .section__row__down .section_left__nav .all__tchk .tchk:hover {
+  background: rgb(255, 255, 255);
+}
 .wrapper-2 .section__row__down .section_left__nav .all__tchk .tchk-activ {
   background-color: rgb(255, 255, 255);
 }
@@ -639,7 +642,7 @@ nav > ul > li > a:hover {
     height: 100%;
     margin: 0;
   }
-  .wrapper-3 .wrapper-3__all .play svg {
+  .wrapper-3 .wrapper-3__all svg {
     width: 70px;
     height: 70px;
   }

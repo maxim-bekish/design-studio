@@ -99,6 +99,9 @@
         justify-content: space-between;
 
         .tchk {
+          &:hover{
+            background: $colorWhite;
+          }
           cursor: pointer;
           width: 9.5px;
           height: 9.5px;
